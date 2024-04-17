@@ -5,8 +5,8 @@ def verifica_vertice_invertido(v, v1, v2):
     return False
 
 if __name__ == '__main__':
-    arquivo = './txts/conexoes.txt'
-    naoExiste = './txts/naoExiste.txt'
+    arquivo = './gabriel/conexoes.txt'
+    naoExiste = './gabriel/naoExiste.txt'
     v = []
     peso = []
 
