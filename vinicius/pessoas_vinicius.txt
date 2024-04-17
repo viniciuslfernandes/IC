@@ -74,7 +74,7 @@ ID	NOME	APELIDO	CIDADE
 73	{Vitoria Rodrigues}	[irma_maria_elisa]	(Cataguases)
 74	{Hugo}	[Careca]	(Cataguases)
 75	{Hugo}	[filho da tania]	(Cataguases)
-76	{Flavio Sanchez}	[catinga]	(Cataguases)
+76	{Flavio Sanchez}	[cefet]	(Cataguases)
 77	{Renan Almeida}	[]	(Cataguases)
 78	{Bruno Resende}	[chato]	(Cataguases)
 79	{Felipe Moura}	[cefet]	(Cataguases)
