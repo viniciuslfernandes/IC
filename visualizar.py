@@ -18,6 +18,7 @@ def printComunidades(l1, arq):
     with open(arq, "r") as f:
         next(f)
         for line in f:
+            # fields = line.strip().split(',')
             fields = line.strip().split('\t')
             if len(fields) >= 4:
                 nome, apelido, cidade = fields[1], fields[2], fields[3]
