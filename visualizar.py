@@ -4,8 +4,9 @@ from matplotlib import cm as cm
 import networkx as nx
 
 def visualize_network():
-    arquivo = './gabriel/conexoes.txt'
-
+    #arquivo = './gabriel/conexoes.txt'
+    arquivo = './vinicius/conexoes_vinicius.txt'
+    
     # Constrói o grafo
     G = nx.Graph()
     
