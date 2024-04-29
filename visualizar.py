@@ -1,6 +1,5 @@
-import community as community_louvain
+from cdlib import algorithms, viz
 from matplotlib import pyplot as plt
-from matplotlib import cm as cm
 import networkx as nx
 
 def get_list_list(particionamento):
@@ -13,7 +12,7 @@ def get_list_list(particionamento):
     
     return lista_de_listas
 
-def printComunidades(l1, arq):
+def printComunidades(l1, arq, arq2):
     pessoasArquivo = {}
     with open(arq, "r") as f:
         next(f)
@@ -25,15 +24,54 @@ def printComunidades(l1, arq):
                 pessoasArquivo[fields[0]] = f"{fields[0]} - {nome}, {apelido}, {cidade}"
 
     i = 1
-    # with open('./gabriel/comunidades.txt', "w") as f:
-    with open('./vinicius/comunidades_vinicius.txt', "w") as f:
+    with open(arq2, "w") as f:
         for pessoas in l1:
             f.write(f"Comunidade {i}: \n")
             for pessoa in pessoas:
                 f.write(pessoasArquivo[str(pessoa)] + "\n")
             i += 1
 
-def visualize_network():
+def visualizar_grafo_louvain(G):
+    coms = algorithms.louvain(G)
+
+    # plota as comunidades em si
+    # viz.plot_community_graph(G, coms)
+
+    # plota o grafo completo
+    pos = nx.spring_layout(G)
+    viz.plot_network_clusters(G, coms, pos, node_size=50)
+    plt.show()
+
+    partitions = dict([])
+    for cid, community in enumerate(coms.communities):
+        for node in community:
+            partitions[node] = cid
+            
+    comunidade_ego = get_list_list(partitions)
+    # printComunidades(comunidade_ego, './gabriel/pessoas.txt', './gabriel/louvain.txt')
+    printComunidades(comunidade_ego, './vinicius/pessoas_vinicius.txt', './vinicius/louvain.txt')
+
+def visualizar_grafo_leiden(G):
+    coms = algorithms.leiden(G)
+
+    # plota as comunidades em si
+    # viz.plot_community_graph(G, coms)
+
+    # plota o grafo completo
+    pos = nx.spring_layout(G)
+    viz.plot_network_clusters(G, coms, pos, node_size=50)
+    plt.show()
+
+    partitions = dict([])
+    for cid, community in enumerate(coms.communities):
+        for node in community:
+            partitions[node] = cid
+            
+    comunidade_ego = get_list_list(partitions)
+    # printComunidades(comunidade_ego, './gabriel/pessoas.txt', './gabriel/leiden.txt')
+    printComunidades(comunidade_ego, './vinicius/pessoas_vinicius.txt', './vinicius/leiden.txt')
+
+def criar_grafo():
     # arquivo = './gabriel/conexoes.txt'
     arquivo = './vinicius/conexoes_vinicius.txt'
 
@@ -47,20 +85,9 @@ def visualize_network():
             num3 = int(novaLinha.split(' ')[2])
             G.add_weighted_edges_from([(num1, num2, num3)])
 
-    pos = nx.spring_layout(G)
-    partitions = community_louvain.best_partition(G)
-    comunidades = set(partitions.values())
-    num_comunidades = len(comunidades)
-    print('Número de comunidades:', num_comunidades)
-    cores = ['blue', 'green', 'yellow', 'purple', 'orange']
-    nx.draw_networkx_nodes(G, pos, node_size=50, node_color=[cores[partitions[node]] for node in G.nodes()], alpha=0.5)
-    nx.draw_networkx_edges(G, pos, alpha=0.1)
-    nx.draw_networkx_labels(G, pos, font_size=6, font_color='black')
-    plt.show()
-    
-    comunidade_ego = get_list_list(partitions)
-    # printComunidades(comunidade_ego, './gabriel/pessoas.txt')
-    printComunidades(comunidade_ego, './vinicius/pessoas_vinicius.txt')
+    return G
 
 if __name__ == '__main__':
-    visualize_network()
+    grafo = criar_grafo()
+    visualizar_grafo_louvain(grafo)
+    visualizar_grafo_leiden(grafo)
