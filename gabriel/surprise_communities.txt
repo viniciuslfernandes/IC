@@ -1,0 +1,1180 @@
+Comunidade 1: 
+1 -  {Gabriel Ribeiro Passos},  [],  (Cataguases)
+139 -  {Isabela Peres},  [],  (Cataguases)
+
+Comunidade 2: 
+2 -  {Silvia Lucia Ribeiro Passos},  [],  (Dona Euzebia)
+
+Comunidade 3: 
+3 -  {Jarbas Nogueira Passos},  [],  (Cataguases)
+
+Comunidade 4: 
+4 -  {Camila Ribeiro Passos},  [],  (Cataguases)
+
+Comunidade 5: 
+5 -  {Solange Nogueira Passos},  [],  (Cataguases)
+
+Comunidade 6: 
+6 -  {Jarbas Henriques Passos},  [],  (Cataguases)
+
+Comunidade 7: 
+7 -  {Joaquim Nogueira Passos},  [],  (Cataguases)
+
+Comunidade 8: 
+8 -  {Solange Resende},  [Tia Solange],  (Cataguases)
+
+Comunidade 9: 
+9 -  {Pedro Henrique Resende Passos},  [],  (Cataguases)
+
+Comunidade 10: 
+10 -  {Josye Nogueira Passos},  [],  (Cataguases)
+
+Comunidade 11: 
+11 -  {Luis Alfredo},  [],  (Petropolis)
+
+Comunidade 12: 
+12 -  {Lea},  [Dona Lea],  (Petropolis)
+
+Comunidade 13: 
+13 -  {Lucas Benvenuti},  [],  (Petropolis)
+
+Comunidade 14: 
+14 -  {Rafael Benvenuti},  [],  (Petropolis)
+
+Comunidade 15: 
+15 -  {Francisca da Silva Ribeiro},  [],  (Dona Euzebia)
+
+Comunidade 16: 
+16 -  {Jose Espedito Ribeiro},  [],  (Dona Euzebia)
+
+Comunidade 17: 
+17 -  {Soraya Sasso},  [],  (Dona Euzebia)
+
+Comunidade 18: 
+18 -  {Jose Sasso},  [],  (Dona Euzebia)
+
+Comunidade 19: 
+19 -  {Luisa Sasso},  [],  (Dona Euzebia)
+
+Comunidade 20: 
+20 -  {Leticia Sasso},  [],  (Dona Euzebia)
+
+Comunidade 21: 
+33 -  {Joao da Silva Pinto},  [Bisavô],  (Dona Euzebia)
+
+Comunidade 22: 
+34 -  {Alaide da Silva Pinto},  [Bisavó],  (Dona Euzebia)
+
+Comunidade 23: 
+36 -  {Luzia da Silva Pinto},  [],  (Dona Euzebia)
+
+Comunidade 24: 
+53 -  {Alaide de Oliveira},  [],  (Dona Euzebia)
+
+Comunidade 25: 
+55 -  {Tatiane},  [Taty],  (Dona Euzebia)
+
+Comunidade 26: 
+57 -  {Fabyane},  [Faby],  (Dona Euzebia)
+
+Comunidade 27: 
+62 -  {Higor},  [],  (Dona Euzebia)
+
+Comunidade 28: 
+66 -  {Joao da Silva Pinto},  [Tio João],  (Dona Euzebia)
+
+Comunidade 29: 
+67 -  {Margarida Magalhaes},  [],  (Dona Euzebia)
+
+Comunidade 30: 
+68 -  {Lidia Magalhaes},  [],  (Dona Euzebia)
+
+Comunidade 31: 
+70 -  {Vinicius Magalhaes},  [],  (Dona Euzebia)
+
+Comunidade 32: 
+74 -  {Lurdes da Silva Pinto},  [],  (Dona Euzebia)
+
+Comunidade 33: 
+76 -  {Sandra},  [],  (Cataguases)
+
+Comunidade 34: 
+78 -  {Sandy},  [],  (Cataguases)
+
+Comunidade 35: 
+79 -  {Maria Cecilia},  [],  (Cataguases)
+
+Comunidade 36: 
+81 -  {Isabel da Silva Pinto},  [],  (Dona Euzebia)
+
+Comunidade 37: 
+83 -  {Carlos André},  [],  (Cataguases)
+
+Comunidade 38: 
+87 -  {Luiz Geraldo Pinto},  [],  (Dona Euzebia)
+
+Comunidade 39: 
+89 -  {Matheus},  [],  (BH)
+
+Comunidade 40: 
+90 -  {Pedro Marcio Nogueira},  [],  (Carmo)
+
+Comunidade 41: 
+99 -  {Gilberto Nogueira},  [Tio Beto],  (Cataguases)
+
+Comunidade 42: 
+101 - {Humberto}, [], (Cataguases)
+
+Comunidade 43: 
+102 - {Camila}, [], (Cataguases)
+
+Comunidade 44: 
+35 -  {Sebastiao da Silva Pinto},  [],  (Dona Euzebia)
+
+Comunidade 45: 
+37 -  {Jose Saratiel},  [],  (Dona Euzebia)
+
+Comunidade 46: 
+38 -  {Jose de Oliveira},  [],  (Dona Euzebia)
+
+Comunidade 47: 
+39 -  {Valdemar},  [],  (Dona Euzebia)
+
+Comunidade 48: 
+40 -  {Rosangela},  [],  (Dona Euzebia)
+
+Comunidade 49: 
+41 -  {Natalia},  [],  (Dona Euzebia)
+
+Comunidade 50: 
+42 -  {Lucas},  [],  (Dona Euzebia)
+
+Comunidade 51: 
+46 -  {Mateus},  [],  (Dona Euzebia)
+
+Comunidade 52: 
+49 -  {João de Oliveira},  [],  (Dona Euzebia)
+
+Comunidade 53: 
+50 -  {Luciano},  [],  (Dona Euzebia)
+
+Comunidade 54: 
+51 -  {Aparecida},  [],  (Dona Euzebia)
+
+Comunidade 55: 
+52 -  {Geraldo},  [],  (Dona Euzebia)
+
+Comunidade 56: 
+54 -  {Jose Fabio Teixeira},  [Marido Alaide - Fabin],  (Dona Euzebia)
+
+Comunidade 57: 
+65 -  {Jose Maria Pinto},  [],  (Dona Euzebia)
+
+Comunidade 58: 
+71 -  {Andrea},  [Esposa Vinicius],  (Dona Euzebia)
+
+Comunidade 59: 
+72 -  {Maria Luiza},  [],  (Dona Euzebia)
+
+Comunidade 60: 
+73 -  {Vitor },  [Vitinho],  (Dona Euzebia)
+
+Comunidade 61: 
+75 -  {Haroldo},  [Tio Haroldo],  (Cataguases)
+
+Comunidade 62: 
+77 -  {Jean},  [],  (Petropolis)
+
+Comunidade 63: 
+80 -  {Antonio Carlos da Silva Pinto},  [],  (Dona Euzebia)
+
+Comunidade 64: 
+82 -  {Valter},  [],  (Cataguases)
+
+Comunidade 65: 
+84 -  {Leticia},  [Esposa Carlos André],  (Cataguases)
+
+Comunidade 66: 
+85 -  {Gabriel},  [Gabrielzinho],  (Cataguases)
+
+Comunidade 67: 
+86 -  {Téo},  [],  (Cataguases)
+
+Comunidade 68: 
+88 -  {Keila},  [Tia Keila],  (BH)
+
+Comunidade 69: 
+91 - {Sueli}, [], (Carmo)
+
+Comunidade 70: 
+92 - {Pedro Marcio Filho}, [], (Carmo)
+
+Comunidade 71: 
+93 - {Alessandra}, [], (Carmo)
+
+Comunidade 72: 
+94 -  {Paulo Sergio Nogueira},  [],  (Cataguases)
+
+Comunidade 73: 
+95 - {Aparecida Webster}, [], (Cataguases)
+
+Comunidade 74: 
+96 - {Rosiane}, [], (Cataguases)
+
+Comunidade 75: 
+97 - {Paula Marcia}, [], (Cataguases)
+
+Comunidade 76: 
+98 - {Ricardo}, [], (Cataguases)
+
+Comunidade 77: 
+100 - {Seila Maria}, [], (Cataguases)
+
+Comunidade 78: 
+103 -  {Rita de Cassia Dias da Cruz},  [],  (Leopoldina)
+
+Comunidade 79: 
+104 - {Francisco}, [], (Leopoldina)
+
+Comunidade 80: 
+105 - {Rosana}, [], (Leopoldina)
+
+Comunidade 81: 
+106 - {Renata}, [], (Leopoldina)
+
+Comunidade 82: 
+107 - {Thiago}, [], (Leopoldina)
+
+Comunidade 83: 
+108 -  {Joana D'arc Dias da Cruz},  [],  (Teresopolis)
+
+Comunidade 84: 
+109 - {Ismar Brito}, [], (Teresopolis)
+
+Comunidade 85: 
+110 - {Ismar Filho}, [], (Teresopolis)
+
+Comunidade 86: 
+111 - {João Marcos}, [], (Teresopolis)
+
+Comunidade 87: 
+112 -  {Maria Inês Dias da Cruz},  [],  (Cataguases)
+
+Comunidade 88: 
+113 - {José Queiroz}, [], (Cataguases)
+
+Comunidade 89: 
+114 - {Samuel}, [], (Cataguases)
+
+Comunidade 90: 
+115 -  {Jésus Dias da Cruz},  [],  (Cataguases)
+
+Comunidade 91: 
+116 - {Janice}, [], (Cataguases)
+
+Comunidade 92: 
+117 - {Othenilio Neto}, [], (Cataguases)
+
+Comunidade 93: 
+118 - {Rogerio}, [], (Cataguases)
+
+Comunidade 94: 
+119 - {Rodrigo}, [], (Cataguases)
+
+Comunidade 95: 
+120 - {Victor Hugo}, [], (Cataguases)
+
+Comunidade 96: 
+21 -  {Lucas Lemos},  [],  (Cataguases)
+
+Comunidade 97: 
+156 - {Guilherme Madella}, [Madella], (Cataguases)
+
+Comunidade 98: 
+184 - {Oromar}, [], (Cataguases)
+
+Comunidade 99: 
+185 - {João Pedro}, [], (Cataguases)
+
+Comunidade 100: 
+188 - {Daniel Rezende}, [], (Merces)
+
+Comunidade 101: 
+189 - {Leonardo}, [Leleo], (Ervalia)
+
+Comunidade 102: 
+191 - {João Gabriel}, [JanJão], (Ervalia)
+
+Comunidade 103: 
+192 - {Lucas Souza}, [Lusca], (Ervalia)
+
+Comunidade 104: 
+193 - {Lucas Singulano}, [Oloril], (Ervalia)
+
+Comunidade 105: 
+194 - {Lucas Goes}, [Goes], (Ervalia)
+
+Comunidade 106: 
+207 - {Iuri Werneck}, [W10], (Cataguases)
+
+Comunidade 107: 
+208 - {Bruno La Gatta}, [Dino], (Cataguases)
+
+Comunidade 108: 
+209 - {Juan Helpes}, [], (Cataguases)
+
+Comunidade 109: 
+210 - {Lucas Rezende}, [Resende], (Cataguases)
+
+Comunidade 110: 
+211 - {Victor Vilela}, [Vitola], (Cataguases)
+
+Comunidade 111: 
+213 - {Arthur Rocha}, [Dx], (Cataguases)
+
+Comunidade 112: 
+214 - {Heitor Riguete}, [], (Cataguases)
+
+Comunidade 113: 
+215 - {Mateus Pereira}, [Mateusão], (Ipanema)
+
+Comunidade 114: 
+222 - {João Flavio}, [], (Leopoldina)
+
+Comunidade 115: 
+225 - {Yuri Ferreira}, [Presida], (Cataguases)
+
+Comunidade 116: 
+226 - {Vinicius Lima}, [Pet], (Cataguases)
+
+Comunidade 117: 
+227 - {Marcelo Filho}, [Marcelin], (Cataguases)
+
+Comunidade 118: 
+228 - {Vinicius Belgo}, [Belgo], (Cataguases)
+
+Comunidade 119: 
+229 - {Gabriel Oliveira}, [Gabigol], (Cataguases)
+
+Comunidade 120: 
+230 - {Victor Hugo}, [Porkin], (Cataguases)
+
+Comunidade 121: 
+231 - {Humberto Cunha}, [Bertin], (Cataguases)
+
+Comunidade 122: 
+232 - {Daniel Mescolin}, [Mescolono], (Cataguases)
+
+Comunidade 123: 
+236 - {Bruno Soares}, [], (Cataguases)
+
+Comunidade 124: 
+239 - {Rafaela Oliveira}, [], (Leopoldina)
+
+Comunidade 125: 
+244 - {Eduardo Kremcer}, [Bené], (Rio de Janeiro)
+
+Comunidade 126: 
+280 - {Caio Mariotto}, [], (Cataguases)
+
+Comunidade 127: 
+281 - {Atilio Moraes}, [], (Cataguases)
+
+Comunidade 128: 
+283 - {Thomas Celestino}, [], (Cataguases)
+
+Comunidade 129: 
+293 - {Gloria Mendes}, [Tia Glorinha], (Alegre)
+
+Comunidade 130: 
+294 - {Angelica Mendes}, [], (Alegre)
+
+Comunidade 131: 
+295 - {Mateus Mendes}, [], (Alegre)
+
+Comunidade 132: 
+296 - {Márcio}, [], (Alegre)
+
+Comunidade 133: 
+121 -  {Caio Carrara},  [],  (Cataguases)
+
+Comunidade 134: 
+122 -  {Mariana Albuquerque},  [],  (Cataguases)
+
+Comunidade 135: 
+123 -  {Fabiano},  [],  (Cataguases)
+
+Comunidade 136: 
+124 -  {Leo Graciolli},  [],  (Cataguases)
+
+Comunidade 137: 
+125 -  {Lucas Moraes},  [],  (Cataguases)
+
+Comunidade 138: 
+126 -  {Maria Leitão},  [],  (Cataguases)
+
+Comunidade 139: 
+127 -  {Carolina},  [],  (Cataguases)
+
+Comunidade 140: 
+128 -  {Tabata},  [],  (Cataguases)
+
+Comunidade 141: 
+129 -  {Diovana},  [],  (Cataguases)
+
+Comunidade 142: 
+130 -  {Lara Fouraux},  [],  (Cataguases)
+
+Comunidade 143: 
+138 -  {Gabriel Mendonça},  [],  (Cataguases)
+
+Comunidade 144: 
+140 -  {Henrique},  [],  (Cataguases)
+
+Comunidade 145: 
+141 -  {Leo Tavares},  [],  (Cataguases)
+
+Comunidade 146: 
+142 -  {Leo Machado},  [],  (Cataguases)
+
+Comunidade 147: 
+143 -  {Rodrigo Cesar},  [],  (Cataguases)
+
+Comunidade 148: 
+144 -  {Thye},  [],  (Cataguases)
+
+Comunidade 149: 
+145 - {Paulo Cesar}, [Paulin], (Cataguases)
+
+Comunidade 150: 
+146 - {Roberto}, [], (Cataguases)
+
+Comunidade 151: 
+147 - {Ariane}, [], (Cataguases)
+
+Comunidade 152: 
+148 - {Gabriela}, [], (Cataguases)
+
+Comunidade 153: 
+149 - {Luisa}, [], (Cataguases)
+
+Comunidade 154: 
+150 - {Ana Luisa}, [], (Cataguases)
+
+Comunidade 155: 
+151 - {Luana}, [], (Cataguases)
+
+Comunidade 156: 
+152 - {Brunna}, [], (Cataguases)
+
+Comunidade 157: 
+153 - {Sarah}, [], (Mirai)
+
+Comunidade 158: 
+154 - {Nicolas}, [], (Cataguases)
+
+Comunidade 159: 
+155 - {Wendell}, [], (Cataguases)
+
+Comunidade 160: 
+157 - {Luiz Carlos}, [], (Cataguases)
+
+Comunidade 161: 
+158 - {Stefanny}, [], (Cataguases)
+
+Comunidade 162: 
+159 - {Giovanna}, [], (Mirai)
+
+Comunidade 163: 
+160 - {Inara}, [], (Mirai)
+
+Comunidade 164: 
+161 - {Isabelle}, [], (Mirai)
+
+Comunidade 165: 
+162 - {Ciro}, [], (Mirai)
+
+Comunidade 166: 
+163 - {Eduardo Luis}, [], (Cataguases)
+
+Comunidade 167: 
+164 - {Eduardo Vecchi}, [], (Cataguases)
+
+Comunidade 168: 
+165 - {Ana Carolina Marinho}, [], (Cataguases)
+
+Comunidade 169: 
+166 - {Karen Makachini}, [], (Cataguases)
+
+Comunidade 170: 
+167 - {Leticia Nogueira}, [], (Cataguases)
+
+Comunidade 171: 
+168 - {Carlos Estevão}, [], (Astolfo Dutra)
+
+Comunidade 172: 
+169 - {Geovanna Nóbrega}, [], (Cataguases)
+
+Comunidade 173: 
+170 - {Leandra Werneck}, [], (Cataguases)
+
+Comunidade 174: 
+171 - {Mateus Rezende}, [], (Cataguases)
+
+Comunidade 175: 
+172 - {Julia Quirino}, [], (Cataguases)
+
+Comunidade 176: 
+173 - {Lindiana Fernandes}, [], (Cataguases)
+
+Comunidade 177: 
+174 - {Alexandre Veiga}, [Xandin], (Cataguases)
+
+Comunidade 178: 
+175 - {Carol Ramos}, [], (Cataguases)
+
+Comunidade 179: 
+176 - {Natalia Duarte}, [], (Cataguases)
+
+Comunidade 180: 
+177 - {Rebeca Verazzani}, [], (Cataguases)
+
+Comunidade 181: 
+178 - {Maria Julia Carneiro}, [], (Cataguases)
+
+Comunidade 182: 
+179 - {Felipe}, [Coxinha], (Cataguases)
+
+Comunidade 183: 
+186 - {Marcela Menezes}, [], (Cataguases)
+
+Comunidade 184: 
+190 - {Willian}, [Soneca], (Ervalia)
+
+Comunidade 185: 
+195 - {Gabriel}, [Bolão], (Ervalia)
+
+Comunidade 186: 
+196 - {Julia Castro}, [], (Juiz de Fora)
+
+Comunidade 187: 
+197 - {Jesus Felipe}, [], (Rio Pomba)
+
+Comunidade 188: 
+198 - {Thiago Mota}, [], (Alem Paraiba)
+
+Comunidade 189: 
+199 - {Luiza}, [Esposa Thiago Mota], (Cataguases)
+
+Comunidade 190: 
+200 - {Lucas Mota Couto}, [], (Rio Pomba)
+
+Comunidade 191: 
+201 - {Matheus Baffa}, [], (Rio Pomba)
+
+Comunidade 192: 
+202 - {Diego Noceli}, [], (Rio Pomba)
+
+Comunidade 193: 
+203 - {Vitor Ferreira}, [Vitim], (Rio Pomba)
+
+Comunidade 194: 
+204 - {Gabriel Lellis}, [], (Rio Pomba)
+
+Comunidade 195: 
+205 - {Leonardo Faeda}, [], (Rio Pomba)
+
+Comunidade 196: 
+212 - {Kaio}, [], (Cataguases)
+
+Comunidade 197: 
+216 - {Lucas Tomaz}, [], (Leopoldina)
+
+Comunidade 198: 
+217 - {Tamires}, [], (Leopoldina)
+
+Comunidade 199: 
+218 - {Maria Julia}, [], (Cataguases)
+
+Comunidade 200: 
+219 - {Amanda Ozava}, [], (Cataguases)
+
+Comunidade 201: 
+220 - {Heduarda Bollini}, [], (Leopoldina)
+
+Comunidade 202: 
+221 - {Tarcisio}, [], (Leopoldina)
+
+Comunidade 203: 
+223 - {Rogerio}, [], (Recreio)
+
+Comunidade 204: 
+224 - {Mauro Andries}, [], (Recreio)
+
+Comunidade 205: 
+233 - {Diogo Carvalho}, [Dioguin], (Cataguases)
+
+Comunidade 206: 
+234 - {Italo Aurelio}, [], (Cataguases)
+
+Comunidade 207: 
+235 - {Igor Lamoia}, [], (Cataguases)
+
+Comunidade 208: 
+237 - {Felipe Pacheco}, [], (Leopoldina)
+
+Comunidade 209: 
+238 - {Gabriel Macedo}, [DuRock], (Leopoldina)
+
+Comunidade 210: 
+240 - {Adriano Ribeiro}, [], (Cataguases)
+
+Comunidade 211: 
+241 - {Maria Elisa}, [], (Cataguases)
+
+Comunidade 212: 
+242 - {Felipe Moura}, [], (Cataguases)
+
+Comunidade 213: 
+243 - {Elvis Freitas}, [], (Cataguases)
+
+Comunidade 214: 
+264 - {Lucas Bruno}, [baiano], (Bahia)
+
+Comunidade 215: 
+265 - {Elvis Martins}, [], (Cataguases)
+
+Comunidade 216: 
+266 - {Bruno Resende}, [], (Cataguases)
+
+Comunidade 217: 
+267 - {Hugo Angelis}, [], (Leopoldina)
+
+Comunidade 218: 
+268 - {Helton Pojo}, [], (Leopoldina)
+
+Comunidade 219: 
+269 - {Dhyovania Alvarez}, [], (Leopoldina)
+
+Comunidade 220: 
+270 - {Carolina Alvarez}, [], (Leopoldina)
+
+Comunidade 221: 
+271 - {Rodrigo Venetillo}, [Rodi], (RJ)
+
+Comunidade 222: 
+272 - {Sophia Coura}, [], (Leopoldina)
+
+Comunidade 223: 
+273 - {Marcelo Americo}, [], (Leopoldina)
+
+Comunidade 224: 
+274 - {Hiago Pinazzi}, [], (Leopoldina)
+
+Comunidade 225: 
+275 - {Marcela Gomes}, [], (Cataguases)
+
+Comunidade 226: 
+276 - {Gustavo Rocha}, [], (Leopoldina)
+
+Comunidade 227: 
+277 - {Artur Rodrigues Aguiar}, [], (Leopoldina)
+
+Comunidade 228: 
+278 - {Marcelo Augusto Correa}, [], (Leopoldina)
+
+Comunidade 229: 
+279 - {Laan Carlos}, [], (Leopoldina)
+
+Comunidade 230: 
+359 - {Matheus Xavier}, [], (Cataguases)
+
+Comunidade 231: 
+360 - {Gabriel Montes}, [], (Cataguases)
+
+Comunidade 232: 
+361 - {João Pedro}, [], (Cataguases)
+
+Comunidade 233: 
+362 - {Emerson Moraes}, [], (Cataguases)
+
+Comunidade 234: 
+363 - {Alexandre}, [Xandão], (Cataguases)
+
+Comunidade 235: 
+364 - {Maxwel}, [Lolão], (Cataguases)
+
+Comunidade 236: 
+365 - {Lucas Silva}, [], (Cataguases)
+
+Comunidade 237: 
+366 - {João Pedro}, [], (Cataguases)
+
+Comunidade 238: 
+367 - {Ariel Siqueira}, [], (Cataguases)
+
+Comunidade 239: 
+368 - {Claudio Filho}, [Claudin], (Cataguases)
+
+Comunidade 240: 
+369 - {Thomaz Xavier}, [], (Cataguases)
+
+Comunidade 241: 
+370 - {Richard}, [], (Cataguases)
+
+Comunidade 242: 
+371 - {Yuri Bebiano}, [], (Cataguases)
+
+Comunidade 243: 
+372 - {Vitor Hugo}, [], (Cataguases)
+
+Comunidade 244: 
+373 - {Ygor Candido}, [Ratin], (Cataguases)
+
+Comunidade 245: 
+374 - {Marcus Santos}, [], (Cataguases)
+
+Comunidade 246: 
+375 - {Mauricio Ribeiro}, [], (Cataguases)
+
+Comunidade 247: 
+376 - {Lucas Andrade}, [Andrade], (Cataguases)
+
+Comunidade 248: 
+377 - {Tourin}, [Tourin], (Cataguases)
+
+Comunidade 249: 
+22 -  {Lourdes Sasso},  [],  (Dona Euzebia)
+
+Comunidade 250: 
+23 -  {Albertino Sasso},  [],  (Dona Euzebia)
+
+Comunidade 251: 
+24 -  {Sergio Antonio Sasso},  [Nem],  (Dona Euzebia)
+
+Comunidade 252: 
+25 -  {Maria Aparecida Narcisa Sasso},  [],  (Dona Euzebia)
+
+Comunidade 253: 
+26 -  {Eduarda Sasso},  [Dudu],  (Dona Euzebia)
+
+Comunidade 254: 
+27 -  {Alice Sasso},  [],  (Dona Euzebia)
+
+Comunidade 255: 
+28 -  {Isabela Sasso},  [],  (Dona Euzebia)
+
+Comunidade 256: 
+29 -  {Luciano Sasso},  [],  (Dona Euzebia)
+
+Comunidade 257: 
+30 -  {Juliana},  [Esposa Luciano],  (Dona Euzebia)
+
+Comunidade 258: 
+31 -  {Williane Rodrigues},  [],  (Cataguases)
+
+Comunidade 259: 
+32 -  {Maria Julia},  [],  (Dona Euzebia)
+
+Comunidade 260: 
+43 -  {Lorena},  [Esposa Lucas],  (Dona Euzebia)
+
+Comunidade 261: 
+44 -  {Lukas},  [Lukinha],  (Dona Euzebia)
+
+Comunidade 262: 
+45 -  {Lais},  [],  (Dona Euzebia)
+
+Comunidade 263: 
+47 -  {Monique},  [Esposa Mateus],  (Dona Euzebia)
+
+Comunidade 264: 
+48 -  {Isadora},  [],  (Dona Euzebia)
+
+Comunidade 265: 
+56 -  {Sebastião},  [Sebá],  (Astolfo Dutra)
+
+Comunidade 266: 
+58 -  {Diego},  [],  (Dona Euzebia)
+
+Comunidade 267: 
+59 -  {Lorenzo},  [],  (SP)
+
+Comunidade 268: 
+60 -  {Bento},  [],  (SP)
+
+Comunidade 269: 
+61 -  {Maite},  [],  (SP)
+
+Comunidade 270: 
+63 -  {Roberta},  [],  (Astolfo Dutra)
+
+Comunidade 271: 
+64 -  {Hyoran},  [],  (Dona Euzebia)
+
+Comunidade 272: 
+69 -  {Rodrigo},  [Marido Lidia],  (Dona Euzebia)
+
+Comunidade 273: 
+282 - {Lais Black}, [], (Cataguases)
+
+Comunidade 274: 
+284 - {Vinicius Receputi Moraes}, [Bode], (Cataguases)
+
+Comunidade 275: 
+285 - {Fabio Rocha}, [Fabim], (Cataguases)
+
+Comunidade 276: 
+286 - {Giovana Rocha}, [], (Cataguases)
+
+Comunidade 277: 
+287 - {Gabriel Bhering}, [], (Cataguases)
+
+Comunidade 278: 
+288 - {Matheo Graciolli}, [], (Cataguases)
+
+Comunidade 279: 
+289 - {Tulio Sacchetto}, [], (Cataguases)
+
+Comunidade 280: 
+290 - {Beatriz Sacchetto}, [], (Cataguases)
+
+Comunidade 281: 
+291 - {Igor Menezes}, [], (Cataguases)
+
+Comunidade 282: 
+292 - {Isabela Oliveira}, [], (Cataguases)
+
+Comunidade 283: 
+297 - {Lucas Vaz}, [], (Cataguases)
+
+Comunidade 284: 
+298 - {Bruno Silva}, [], (Cataguases)
+
+Comunidade 285: 
+299 - {Fernando Teixeira}, [], (Dona Euzebia)
+
+Comunidade 286: 
+300 - {Douglas Reboredo}, [Mestre Douglas], (Cataguases)
+
+Comunidade 287: 
+301 - {Chrystian Riguete}, [], (Cataguases)
+
+Comunidade 288: 
+302 - {Rayssa Rosa}, [Namorada Madella], (RJ)
+
+Comunidade 289: 
+303 - {Willian Xavier}, [], (Cataguases)
+
+Comunidade 290: 
+304 - {Amanda Novaes}, [Namorada Pedro Resende], (Cataguases)
+
+Comunidade 291: 
+305 - {Carol Motta}, [], (Cataguases)
+
+Comunidade 292: 
+306 - {Byanca Ferreira}, [], (Cataguases)
+
+Comunidade 293: 
+307 - {Felipe Moreira Duarte}, [Irmão Luiz Carlos], (Cataguases)
+
+Comunidade 294: 
+308 - {Paula Pontes}, [], (Leopoldina)
+
+Comunidade 295: 
+309 - {Clara Peres}, [], (Cataguases)
+
+Comunidade 296: 
+310 - {Diego Boechat}, [], (Cataguases)
+
+Comunidade 297: 
+311 - {Thalissa Werneck}, [], (Cataguases)
+
+Comunidade 298: 
+312 - {Lais Carneiro}, [], (Cataguases)
+
+Comunidade 299: 
+313 - {Maria Clara Arquete}, [], (Cataguases)
+
+Comunidade 300: 
+314 - {Maria Eduarda Gonçalves}, [Amiga Brunna], (Cataguases)
+
+Comunidade 301: 
+315 - {Maria Giulia Sousa}, [], (Cataguases)
+
+Comunidade 302: 
+316 - {Louise Ghastine}, [], (Cataguases)
+
+Comunidade 303: 
+317 - {Deborah Oliveira}, [], (Cataguases)
+
+Comunidade 304: 
+318 - {Lara Carvalho}, [], (Cataguases)
+
+Comunidade 305: 
+319 - {Lucas Quirino}, [], (Cataguases)
+
+Comunidade 306: 
+320 - {Victor Vargas}, [], (Cataguases)
+
+Comunidade 307: 
+321 - {Manoel Victor Moreira}, [Linguinha], (Cataguases)
+
+Comunidade 308: 
+322 - {Amanda Mescolin}, [], (Cataguases)
+
+Comunidade 309: 
+323 - {Maria Claro Romanhol}, [], (Cataguases)
+
+Comunidade 310: 
+324 - {Ana Carolina Montes}, [], (Cataguases)
+
+Comunidade 311: 
+325 - {Ana Carolina Teixeira Ferrari}, [], (Astolfo Dutra)
+
+Comunidade 312: 
+326 - {Eduarda Resende}, [], (Mirai)
+
+Comunidade 313: 
+327 - {Felipe Gazola}, [], (Cataguases)
+
+Comunidade 314: 
+328 - {Maria Eduarda Rocha}, [], (Cataguases)
+
+Comunidade 315: 
+329 - {Gabriela Rezende}, [], (Cataguases)
+
+Comunidade 316: 
+330 - {Lavinia Saldanha}, [], (Cataguases)
+
+Comunidade 317: 
+331 - {Pollyana Ferreira}, [], (Cataguases)
+
+Comunidade 318: 
+332 - {Livia Emidio}, [], (Cataguases)
+
+Comunidade 319: 
+333 - {Samila Gonçalves}, [], (Cataguases)
+
+Comunidade 320: 
+334 - {Wirio Romanhol}, [], (Cataguases)
+
+Comunidade 321: 
+335 - {Carol Borges}, [], (Cataguases)
+
+Comunidade 322: 
+336 - {Isabela Menta}, [], (Cataguases)
+
+Comunidade 323: 
+337 - {Eduarda Queiroz}, [], (Cataguases)
+
+Comunidade 324: 
+338 - {Isadora Mota}, [], (Rio Pomba)
+
+Comunidade 325: 
+340 - {Rafaela Ramos}, [], (Cataguases)
+
+Comunidade 326: 
+339 - {Mariana Masse}, [], (Cataguases)
+
+Comunidade 327: 
+341 - {Cristal Cardoso}, [], (Cataguases)
+
+Comunidade 328: 
+342 - {Pedro Vitor}, [], (Cataguases)
+
+Comunidade 329: 
+343 - {Beatriz Freitas}, [], (Cataguases)
+
+Comunidade 330: 
+344 - {Nayara Rosa}, [], (Cataguases)
+
+Comunidade 331: 
+345 - {Leticia Leal}, [], (Cataguases)
+
+Comunidade 332: 
+346 - {Tais Lopes}, [], (Cataguases)
+
+Comunidade 333: 
+347 - {Marina Nunes}, [], (Cataguases)
+
+Comunidade 334: 
+348 - {Millena Moura}, [], (Rio Pomba)
+
+Comunidade 335: 
+349 - {Maria Julia Campos Salles}, [], (Cataguases)
+
+Comunidade 336: 
+350 - {Ana Clara Diniz Vargas}, [], (Cataguases)
+
+Comunidade 337: 
+351 - {Isabella Bernardes}, [], (Cataguases)
+
+Comunidade 338: 
+352 - {Raphaela Botarro}, [], (Cataguases)
+
+Comunidade 339: 
+353 - {Nathalia Assis}, [], (Cataguases)
+
+Comunidade 340: 
+354 - {Ana Carolina Furtado}, [Irmã Carlos Estevão], (Astolfo Dutra)
+
+Comunidade 341: 
+355 - {Jordana Riguete}, [Irmã Heitor], (Cataguases)
+
+Comunidade 342: 
+356 - {Maria Clara Machado}, [], (Dona Euzebia)
+
+Comunidade 343: 
+394 - {Waschington Henrique}, [], (Cataguases)
+
+Comunidade 344: 
+392 - {Thomas Melo}, [], (Cataguases)
+
+Comunidade 345: 
+393 - {Ulisses Prata}, [], (Cataguases)
+
+Comunidade 346: 
+391 - {Pedro Henrique}, [Pedrão], (Cataguases)
+
+Comunidade 347: 
+390 - {Mateus Brito}, [], (Cataguases)
+
+Comunidade 348: 
+389 - {Marcos Vinicius}, [Gota], (Cataguases)
+
+Comunidade 349: 
+388 - {Marco Antonio Lombarde}, [Japa], (Cataguases)
+
+Comunidade 350: 
+387 - {Lucas Soares}, [Kastor], (Cataguases)
+
+Comunidade 351: 
+386 - {Leonam Fialho}, [], (Cataguases)
+
+Comunidade 352: 
+385 - {José Alicio}, [], (Cataguases)
+
+Comunidade 353: 
+384 - {Guilherme Dioguinho}, [], (Cataguases)
+
+Comunidade 354: 
+383 - {Frederico Lotti}, [], (Cataguases)
+
+Comunidade 355: 
+382 - {Daniel}, [Filho Adinilson], (Cataguases)
+
+Comunidade 356: 
+381 - {Carlos Alberto}, [Bebeto], (Cataguases)
+
+Comunidade 357: 
+380 - {Alberto Dionizio}, [], (Cataguases)
+
+Comunidade 358: 
+379 - {Adinilson}, [], (Cataguases)
+
+Comunidade 359: 
+378 - {Alexandre Ferraz}, [Birita], (Cataguases)
+
+Comunidade 360: 
+187 - {Luana}, [], (Merces)
+
+Comunidade 361: 
+131 -  {Adriana },  [Professora],  (Cataguases)
+
+Comunidade 362: 
+132 -  {Adriano},  [Professor],  (Cataguases)
+
+Comunidade 363: 
+133 -  {Michelle},  [Professora],  (Cataguases)
+
+Comunidade 364: 
+134 -  {Helvia Peres},  [Professora],  (Cataguases)
+
+Comunidade 365: 
+135 -  {Luiz Leitão},  [Professor],  (Cataguases)
+
+Comunidade 366: 
+136 -  {Renata Barbosa},  [Professora],  (Cataguases)
+
+Comunidade 367: 
+137 -  {Edna},  [Professora],  (Cataguases)
+
+Comunidade 368: 
+180 - {Lucas Werneck}, [Lucão - Professor], (Cataguases)
+
+Comunidade 369: 
+181 - {Gustavo Pereira Romanhol}, [Professor], (Cataguases)
+
+Comunidade 370: 
+182 - {Emmanuel Ferreira}, [Professor], (Cataguases)
+
+Comunidade 371: 
+183 - {Julio Proença}, [Professor], (Cataguases)
+
+Comunidade 372: 
+245 - {Erica}, [Professora], (Juiz de Fora)
+
+Comunidade 373: 
+246 - {Michelle}, [Professora], (Leopoldina)
+
+Comunidade 374: 
+247 - {Gabriella}, [Professora], (Leopoldina)
+
+Comunidade 375: 
+248 - {Tatiana}, [Professora], (Leopoldina)
+
+Comunidade 376: 
+249 - {Natalia}, [Professora], (Piacatuba)
+
+Comunidade 377: 
+250 - {Luis Augusto}, [Professor], (Juiz de Fora)
+
+Comunidade 378: 
+251 - {Ulisses}, [Professor], (Cataguases)
+
+Comunidade 379: 
+252 - {Evaristo}, [Professor], (Cataguases)
+
+Comunidade 380: 
+253 - {Diego}, [Professor], (Cataguases)
+
+Comunidade 381: 
+254 - {Joventino}, [Professor], (Itamarati)
+
+Comunidade 382: 
+255 - {Anderson}, [Professor], (Cataguases)
+
+Comunidade 383: 
+256 - {Marcus}, [Professor], (Itamarati)
+
+Comunidade 384: 
+257 - {Cleiston}, [Professor], (Leopoldina)
+
+Comunidade 385: 
+258 - {Matheus Avila}, [Professor], (Juiz de Fora)
+
+Comunidade 386: 
+259 - {Eduardo}, [Professor], (Leopoldina)
+
+Comunidade 387: 
+260 - {Gustavo Montes}, [Professor], (Leopoldina)
+
+Comunidade 388: 
+261 - {Luan}, [Professor], (Leopoldina)
+
+Comunidade 389: 
+262 - {Ricardo Rosemback}, [Professor], (Juiz de Fora)
+
+Comunidade 390: 
+263 - {Jeronimo}, [Professor], (Cataguases)
+
+Comunidade 391: 
+357 - {Café}, [Café], (Cataguases)
+
+Comunidade 392: 
+358 - {Fafá}, [Fafá], (Cataguases)
+
+Comunidade 393: 
+206 - {Lucas Lattari}, [Professor], (Rio Pomba)
+

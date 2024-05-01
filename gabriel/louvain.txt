@@ -108,11 +108,11 @@ Comunidade 1:
 323 - {Maria Claro Romanhol}, [], (Cataguases)
 324 - {Ana Carolina Montes}, [], (Cataguases)
 326 - {Eduarda Resende}, [], (Mirai)
-327 - {Felipe Gazola}, [], (Cataguases)
 328 - {Maria Eduarda Rocha}, [], (Cataguases)
 329 - {Gabriela Rezende}, [], (Cataguases)
 330 - {Lavinia Saldanha}, [], (Cataguases)
 331 - {Pollyana Ferreira}, [], (Cataguases)
+332 - {Livia Emidio}, [], (Cataguases)
 333 - {Samila Gonçalves}, [], (Cataguases)
 334 - {Wirio Romanhol}, [], (Cataguases)
 335 - {Carol Borges}, [], (Cataguases)
@@ -147,6 +147,7 @@ Comunidade 1:
 183 - {Julio Proença}, [Professor], (Cataguases)
 357 - {Café}, [Café], (Cataguases)
 358 - {Fafá}, [Fafá], (Cataguases)
+
 Comunidade 2: 
 9 -  {Pedro Henrique Resende Passos},  [],  (Cataguases)
 185 - {João Pedro}, [], (Cataguases)
@@ -209,7 +210,6 @@ Comunidade 2:
 289 - {Tulio Sacchetto}, [], (Cataguases)
 292 - {Isabela Oliveira}, [], (Cataguases)
 308 - {Paula Pontes}, [], (Leopoldina)
-332 - {Livia Emidio}, [], (Cataguases)
 355 - {Jordana Riguete}, [Irmã Heitor], (Cataguases)
 394 - {Waschington Henrique}, [], (Cataguases)
 392 - {Thomas Melo}, [], (Cataguases)
@@ -247,6 +247,7 @@ Comunidade 2:
 261 - {Luan}, [Professor], (Leopoldina)
 262 - {Ricardo Rosemback}, [Professor], (Juiz de Fora)
 263 - {Jeronimo}, [Professor], (Cataguases)
+
 Comunidade 3: 
 3 -  {Jarbas Nogueira Passos},  [],  (Cataguases)
 5 -  {Solange Nogueira Passos},  [],  (Cataguases)
@@ -332,6 +333,7 @@ Comunidade 3:
 299 - {Fernando Teixeira}, [], (Dona Euzebia)
 325 - {Ana Carolina Teixeira Ferrari}, [], (Astolfo Dutra)
 356 - {Maria Clara Machado}, [], (Dona Euzebia)
+
 Comunidade 4: 
 2 -  {Silvia Lucia Ribeiro Passos},  [],  (Dona Euzebia)
 4 -  {Camila Ribeiro Passos},  [],  (Cataguases)
@@ -374,6 +376,8 @@ Comunidade 4:
 118 - {Rogerio}, [], (Cataguases)
 119 - {Rodrigo}, [], (Cataguases)
 120 - {Victor Hugo}, [], (Cataguases)
+327 - {Felipe Gazola}, [], (Cataguases)
+
 Comunidade 5: 
 188 - {Daniel Rezende}, [], (Merces)
 189 - {Leonardo}, [Leleo], (Ervalia)
@@ -397,3 +401,4 @@ Comunidade 5:
 348 - {Millena Moura}, [], (Rio Pomba)
 187 - {Luana}, [], (Merces)
 206 - {Lucas Lattari}, [Professor], (Rio Pomba)
+
