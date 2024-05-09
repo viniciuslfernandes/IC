@@ -1,3 +1,4 @@
+from operator import itemgetter
 from cdlib import algorithms, viz
 from matplotlib import pyplot as plt
 import networkx as nx
@@ -190,11 +191,50 @@ def visualizar_grafo_threshold_clustering(G, opcao_arquivo):
         similaridade_comunidades(RESULTADO_ESPERADO_VINICIUS, comunidade_ego_threshold_clustering)
         escrever_comunidades(comunidade_ego_threshold_clustering, './vinicius/pessoas_vinicius.txt', './vinicius/threshold_clustering.txt', opcao_arquivo)
 
+def visualizar_grafo_ego_networks(G, opcao_arquivo):
+    coms = algorithms.ego_networks(G)
+    pos = nx.spring_layout(G)
+    viz.plot_network_clusters(G, coms, pos, node_size=50)
+    plt.show()
+
+    partitions = dict([])
+    for cid, community in enumerate(coms.communities):
+        for node in community:
+            partitions[node] = cid
+            
+    comunidade_ego_networks = criar_lista_de_listas(partitions)
+
+    if opcao_arquivo == '1':
+        # similaridade_comunidades(RESULTADO_ESPERADO_GABRIEL, comunidade_ego_networks)
+        escrever_comunidades(comunidade_ego_networks, './gabriel/pessoas.txt', './gabriel/ego_networks.txt', opcao_arquivo)
+    elif opcao_arquivo == '2':
+        # similaridade_comunidades(RESULTADO_ESPERADO_VINICIUS, comunidade_ego_networks)
+        escrever_comunidades(comunidade_ego_networks, './vinicius/pessoas_vinicius.txt', './vinicius/ego_networks.txt', opcao_arquivo)
+
+def visualizar_grafo(G):
+    # find node with largest degree
+    node_and_degree = G.degree()
+    (largest_hub, degree) = sorted(node_and_degree, key=itemgetter(1))[-1]
+
+    # Create ego graph of main hub
+    hub_ego = nx.ego_graph(G, largest_hub)
+
+    # Draw graph
+    pos = nx.spring_layout(hub_ego, seed=20532)  # Seed layout for reproducibility
+    nx.draw(hub_ego, pos, node_color="b", node_size=50, with_labels=False, width=0.1, edge_color="grey")
+
+    # Draw ego as large and red
+    options = {"node_size": 150, "node_color": "g"}
+    nx.draw_networkx_nodes(hub_ego, pos, nodelist=[largest_hub], **options)
+    plt.show()
+
 if __name__ == '__main__':
-    opcao_arquivo = input("Digite 1 para visualizar o grafo de Gabriel ou 2 para visualizar o grafo de Vinicius: ")
+    opcao_arquivo = input("Digite 1 para visualizar o grafo de Gabriel ou 2 para visualizar o grafo de Vinicius: \n")
     grafo = criar_grafo(opcao_arquivo)
-    visualizar_grafo_louvain(grafo, opcao_arquivo)
-    visualizar_grafo_leiden(grafo, opcao_arquivo)
-    visualizar_grafo_rb_pots(grafo, opcao_arquivo)
-    visualizar_grafo_surprise_communities(grafo, opcao_arquivo)
-    visualizar_grafo_threshold_clustering(grafo, opcao_arquivo)
+    visualizar_grafo(grafo)
+    # visualizar_grafo_louvain(grafo, opcao_arquivo)
+    # visualizar_grafo_leiden(grafo, opcao_arquivo)
+    # visualizar_grafo_rb_pots(grafo, opcao_arquivo)
+    # visualizar_grafo_surprise_communities(grafo, opcao_arquivo)
+    # visualizar_grafo_threshold_clustering(grafo, opcao_arquivo)
+    # visualizar_grafo_ego_networks(grafo, opcao_arquivo)
