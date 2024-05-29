@@ -249,6 +249,7 @@ Comunidade 2:
 
 Comunidade 3: 
 2 -  {Silvia Lucia Ribeiro Passos},  [],  (Dona Euzebia)
+3 -  {Jarbas Nogueira Passos},  [],  (Cataguases)
 15 -  {Francisca da Silva Ribeiro},  [],  (Dona Euzebia)
 16 -  {Jose Espedito Ribeiro},  [],  (Dona Euzebia)
 17 -  {Soraya Sasso},  [],  (Dona Euzebia)
@@ -333,7 +334,6 @@ Comunidade 3:
 356 - {Maria Clara Machado}, [], (Dona Euzebia)
 
 Comunidade 4: 
-3 -  {Jarbas Nogueira Passos},  [],  (Cataguases)
 4 -  {Camila Ribeiro Passos},  [],  (Cataguases)
 5 -  {Solange Nogueira Passos},  [],  (Cataguases)
 6 -  {Jarbas Henriques Passos},  [],  (Cataguases)

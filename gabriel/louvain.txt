@@ -1,5 +1,5 @@
 Comunidade 1: 
-9 -  {Pedro Henrique Resende Passos},  [],  (Cataguases)
+1 -  {Gabriel Ribeiro Passos},  [],  (Cataguases)
 156 - {Guilherme Madella}, [Madella], (Cataguases)
 184 - {Oromar}, [], (Cataguases)
 280 - {Caio Mariotto}, [], (Cataguases)
@@ -89,6 +89,7 @@ Comunidade 1:
 303 - {Willian Xavier}, [], (Cataguases)
 304 - {Amanda Novaes}, [Namorada Pedro Resende], (Cataguases)
 305 - {Carol Motta}, [], (Cataguases)
+306 - {Byanca Ferreira}, [], (Cataguases)
 307 - {Felipe Moreira Duarte}, [Irmão Luiz Carlos], (Cataguases)
 309 - {Clara Peres}, [], (Cataguases)
 310 - {Diego Boechat}, [], (Cataguases)
@@ -112,11 +113,14 @@ Comunidade 1:
 329 - {Gabriela Rezende}, [], (Cataguases)
 330 - {Lavinia Saldanha}, [], (Cataguases)
 331 - {Pollyana Ferreira}, [], (Cataguases)
+333 - {Samila Gonçalves}, [], (Cataguases)
 334 - {Wirio Romanhol}, [], (Cataguases)
 335 - {Carol Borges}, [], (Cataguases)
 336 - {Isabela Menta}, [], (Cataguases)
 337 - {Eduarda Queiroz}, [], (Cataguases)
+338 - {Isadora Mota}, [], (Rio Pomba)
 340 - {Rafaela Ramos}, [], (Cataguases)
+339 - {Mariana Masse}, [], (Cataguases)
 341 - {Cristal Cardoso}, [], (Cataguases)
 342 - {Pedro Vitor}, [], (Cataguases)
 343 - {Beatriz Freitas}, [], (Cataguases)
@@ -145,6 +149,7 @@ Comunidade 1:
 358 - {Fafá}, [Fafá], (Cataguases)
 
 Comunidade 2: 
+9 -  {Pedro Henrique Resende Passos},  [],  (Cataguases)
 185 - {João Pedro}, [], (Cataguases)
 207 - {Iuri Werneck}, [W10], (Cataguases)
 208 - {Bruno La Gatta}, [Dino], (Cataguases)
@@ -374,7 +379,6 @@ Comunidade 4:
 120 - {Victor Hugo}, [], (Cataguases)
 
 Comunidade 5: 
-1 -  {Gabriel Ribeiro Passos},  [],  (Cataguases)
 188 - {Daniel Rezende}, [], (Merces)
 189 - {Leonardo}, [Leleo], (Ervalia)
 191 - {João Gabriel}, [JanJão], (Ervalia)
@@ -394,10 +398,6 @@ Comunidade 5:
 203 - {Vitor Ferreira}, [Vitim], (Rio Pomba)
 204 - {Gabriel Lellis}, [], (Rio Pomba)
 205 - {Leonardo Faeda}, [], (Rio Pomba)
-306 - {Byanca Ferreira}, [], (Cataguases)
-333 - {Samila Gonçalves}, [], (Cataguases)
-338 - {Isadora Mota}, [], (Rio Pomba)
-339 - {Mariana Masse}, [], (Cataguases)
 348 - {Millena Moura}, [], (Rio Pomba)
 187 - {Luana}, [], (Merces)
 206 - {Lucas Lattari}, [Professor], (Rio Pomba)

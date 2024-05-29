@@ -1,6 +1,6 @@
 Comunidade 1: 
 1 -  {Gabriel Ribeiro Passos},  [],  (Cataguases)
-213 - {Arthur Rocha}, [Dx], (Cataguases)
+253 - {Diego}, [Professor], (Cataguases)
 
 Comunidade 2: 
 2 -  {Silvia Lucia Ribeiro Passos},  [],  (Dona Euzebia)
@@ -330,814 +330,814 @@ Comunidade 110:
 211 - {Victor Vilela}, [Vitola], (Cataguases)
 
 Comunidade 111: 
-214 - {Heitor Riguete}, [], (Cataguases)
+213 - {Arthur Rocha}, [Dx], (Cataguases)
 
 Comunidade 112: 
-215 - {Mateus Pereira}, [Mateusão], (Ipanema)
+214 - {Heitor Riguete}, [], (Cataguases)
 
 Comunidade 113: 
-222 - {João Flavio}, [], (Leopoldina)
+215 - {Mateus Pereira}, [Mateusão], (Ipanema)
 
 Comunidade 114: 
-225 - {Yuri Ferreira}, [Presida], (Cataguases)
+222 - {João Flavio}, [], (Leopoldina)
 
 Comunidade 115: 
-226 - {Vinicius Lima}, [Pet], (Cataguases)
+225 - {Yuri Ferreira}, [Presida], (Cataguases)
 
 Comunidade 116: 
-227 - {Marcelo Filho}, [Marcelin], (Cataguases)
+226 - {Vinicius Lima}, [Pet], (Cataguases)
 
 Comunidade 117: 
-228 - {Vinicius Belgo}, [Belgo], (Cataguases)
+227 - {Marcelo Filho}, [Marcelin], (Cataguases)
 
 Comunidade 118: 
-229 - {Gabriel Oliveira}, [Gabigol], (Cataguases)
+228 - {Vinicius Belgo}, [Belgo], (Cataguases)
 
 Comunidade 119: 
-230 - {Victor Hugo}, [Porkin], (Cataguases)
+229 - {Gabriel Oliveira}, [Gabigol], (Cataguases)
 
 Comunidade 120: 
-231 - {Humberto Cunha}, [Bertin], (Cataguases)
+230 - {Victor Hugo}, [Porkin], (Cataguases)
 
 Comunidade 121: 
-232 - {Daniel Mescolin}, [Mescolono], (Cataguases)
+231 - {Humberto Cunha}, [Bertin], (Cataguases)
 
 Comunidade 122: 
-236 - {Bruno Soares}, [], (Cataguases)
+232 - {Daniel Mescolin}, [Mescolono], (Cataguases)
 
 Comunidade 123: 
-239 - {Rafaela Oliveira}, [], (Leopoldina)
+236 - {Bruno Soares}, [], (Cataguases)
 
 Comunidade 124: 
-244 - {Eduardo Kremcer}, [Bené], (Rio de Janeiro)
+239 - {Rafaela Oliveira}, [], (Leopoldina)
 
 Comunidade 125: 
-280 - {Caio Mariotto}, [], (Cataguases)
+244 - {Eduardo Kremcer}, [Bené], (Rio de Janeiro)
 
 Comunidade 126: 
-281 - {Atilio Moraes}, [], (Cataguases)
+280 - {Caio Mariotto}, [], (Cataguases)
 
 Comunidade 127: 
-283 - {Thomas Celestino}, [], (Cataguases)
+281 - {Atilio Moraes}, [], (Cataguases)
 
 Comunidade 128: 
-293 - {Gloria Mendes}, [Tia Glorinha], (Alegre)
+283 - {Thomas Celestino}, [], (Cataguases)
 
 Comunidade 129: 
-294 - {Angelica Mendes}, [], (Alegre)
+293 - {Gloria Mendes}, [Tia Glorinha], (Alegre)
 
 Comunidade 130: 
-295 - {Mateus Mendes}, [], (Alegre)
+294 - {Angelica Mendes}, [], (Alegre)
 
 Comunidade 131: 
-296 - {Márcio}, [], (Alegre)
+295 - {Mateus Mendes}, [], (Alegre)
 
 Comunidade 132: 
-121 -  {Caio Carrara},  [],  (Cataguases)
+296 - {Márcio}, [], (Alegre)
 
 Comunidade 133: 
-122 -  {Mariana Albuquerque},  [],  (Cataguases)
+121 -  {Caio Carrara},  [],  (Cataguases)
 
 Comunidade 134: 
-123 -  {Fabiano},  [],  (Cataguases)
+122 -  {Mariana Albuquerque},  [],  (Cataguases)
 
 Comunidade 135: 
-124 -  {Leo Graciolli},  [],  (Cataguases)
+123 -  {Fabiano},  [],  (Cataguases)
 
 Comunidade 136: 
-125 -  {Lucas Moraes},  [],  (Cataguases)
+124 -  {Leo Graciolli},  [],  (Cataguases)
 
 Comunidade 137: 
-126 -  {Maria Leitão},  [],  (Cataguases)
+125 -  {Lucas Moraes},  [],  (Cataguases)
 
 Comunidade 138: 
-127 -  {Carolina},  [],  (Cataguases)
+126 -  {Maria Leitão},  [],  (Cataguases)
 
 Comunidade 139: 
-128 -  {Tabata},  [],  (Cataguases)
+127 -  {Carolina},  [],  (Cataguases)
 
 Comunidade 140: 
-129 -  {Diovana},  [],  (Cataguases)
+128 -  {Tabata},  [],  (Cataguases)
 
 Comunidade 141: 
-130 -  {Lara Fouraux},  [],  (Cataguases)
+129 -  {Diovana},  [],  (Cataguases)
 
 Comunidade 142: 
-138 -  {Gabriel Mendonça},  [],  (Cataguases)
+130 -  {Lara Fouraux},  [],  (Cataguases)
 
 Comunidade 143: 
-139 -  {Isabela Peres},  [],  (Cataguases)
+138 -  {Gabriel Mendonça},  [],  (Cataguases)
 
 Comunidade 144: 
-140 -  {Henrique},  [],  (Cataguases)
+139 -  {Isabela Peres},  [],  (Cataguases)
 
 Comunidade 145: 
-141 -  {Leo Tavares},  [],  (Cataguases)
+140 -  {Henrique},  [],  (Cataguases)
 
 Comunidade 146: 
-142 -  {Leo Machado},  [],  (Cataguases)
+141 -  {Leo Tavares},  [],  (Cataguases)
 
 Comunidade 147: 
-143 -  {Rodrigo Cesar},  [],  (Cataguases)
+142 -  {Leo Machado},  [],  (Cataguases)
 
 Comunidade 148: 
-144 -  {Thye},  [],  (Cataguases)
+143 -  {Rodrigo Cesar},  [],  (Cataguases)
 
 Comunidade 149: 
-145 - {Paulo Cesar}, [Paulin], (Cataguases)
+144 -  {Thye},  [],  (Cataguases)
 
 Comunidade 150: 
-146 - {Roberto}, [], (Cataguases)
+145 - {Paulo Cesar}, [Paulin], (Cataguases)
 
 Comunidade 151: 
-147 - {Ariane}, [], (Cataguases)
+146 - {Roberto}, [], (Cataguases)
 
 Comunidade 152: 
-148 - {Gabriela}, [], (Cataguases)
+147 - {Ariane}, [], (Cataguases)
 
 Comunidade 153: 
-149 - {Luisa}, [], (Cataguases)
+148 - {Gabriela}, [], (Cataguases)
 
 Comunidade 154: 
-150 - {Ana Luisa}, [], (Cataguases)
+149 - {Luisa}, [], (Cataguases)
 
 Comunidade 155: 
-151 - {Luana}, [], (Cataguases)
+150 - {Ana Luisa}, [], (Cataguases)
 
 Comunidade 156: 
-152 - {Brunna}, [], (Cataguases)
+151 - {Luana}, [], (Cataguases)
 
 Comunidade 157: 
-153 - {Sarah}, [], (Mirai)
+152 - {Brunna}, [], (Cataguases)
 
 Comunidade 158: 
-154 - {Nicolas}, [], (Cataguases)
+153 - {Sarah}, [], (Mirai)
 
 Comunidade 159: 
-155 - {Wendell}, [], (Cataguases)
+154 - {Nicolas}, [], (Cataguases)
 
 Comunidade 160: 
-157 - {Luiz Carlos}, [], (Cataguases)
+155 - {Wendell}, [], (Cataguases)
 
 Comunidade 161: 
-158 - {Stefanny}, [], (Cataguases)
+157 - {Luiz Carlos}, [], (Cataguases)
 
 Comunidade 162: 
-159 - {Giovanna}, [], (Mirai)
+158 - {Stefanny}, [], (Cataguases)
 
 Comunidade 163: 
-160 - {Inara}, [], (Mirai)
+159 - {Giovanna}, [], (Mirai)
 
 Comunidade 164: 
-161 - {Isabelle}, [], (Mirai)
+160 - {Inara}, [], (Mirai)
 
 Comunidade 165: 
-162 - {Ciro}, [], (Mirai)
+161 - {Isabelle}, [], (Mirai)
 
 Comunidade 166: 
-163 - {Eduardo Luis}, [], (Cataguases)
+162 - {Ciro}, [], (Mirai)
 
 Comunidade 167: 
-164 - {Eduardo Vecchi}, [], (Cataguases)
+163 - {Eduardo Luis}, [], (Cataguases)
 
 Comunidade 168: 
-165 - {Ana Carolina Marinho}, [], (Cataguases)
+164 - {Eduardo Vecchi}, [], (Cataguases)
 
 Comunidade 169: 
-166 - {Karen Makachini}, [], (Cataguases)
+165 - {Ana Carolina Marinho}, [], (Cataguases)
 
 Comunidade 170: 
-167 - {Leticia Nogueira}, [], (Cataguases)
+166 - {Karen Makachini}, [], (Cataguases)
 
 Comunidade 171: 
-168 - {Carlos Estevão}, [], (Astolfo Dutra)
+167 - {Leticia Nogueira}, [], (Cataguases)
 
 Comunidade 172: 
-169 - {Geovanna Nóbrega}, [], (Cataguases)
+168 - {Carlos Estevão}, [], (Astolfo Dutra)
 
 Comunidade 173: 
-170 - {Leandra Werneck}, [], (Cataguases)
+169 - {Geovanna Nóbrega}, [], (Cataguases)
 
 Comunidade 174: 
-171 - {Mateus Rezende}, [], (Cataguases)
+170 - {Leandra Werneck}, [], (Cataguases)
 
 Comunidade 175: 
-172 - {Julia Quirino}, [], (Cataguases)
+171 - {Mateus Rezende}, [], (Cataguases)
 
 Comunidade 176: 
-173 - {Lindiana Fernandes}, [], (Cataguases)
+172 - {Julia Quirino}, [], (Cataguases)
 
 Comunidade 177: 
-174 - {Alexandre Veiga}, [Xandin], (Cataguases)
+173 - {Lindiana Fernandes}, [], (Cataguases)
 
 Comunidade 178: 
-175 - {Carol Ramos}, [], (Cataguases)
+174 - {Alexandre Veiga}, [Xandin], (Cataguases)
 
 Comunidade 179: 
-176 - {Natalia Duarte}, [], (Cataguases)
+175 - {Carol Ramos}, [], (Cataguases)
 
 Comunidade 180: 
-177 - {Rebeca Verazzani}, [], (Cataguases)
+176 - {Natalia Duarte}, [], (Cataguases)
 
 Comunidade 181: 
-178 - {Maria Julia Carneiro}, [], (Cataguases)
+177 - {Rebeca Verazzani}, [], (Cataguases)
 
 Comunidade 182: 
-179 - {Felipe}, [Coxinha], (Cataguases)
+178 - {Maria Julia Carneiro}, [], (Cataguases)
 
 Comunidade 183: 
-186 - {Marcela Menezes}, [], (Cataguases)
+179 - {Felipe}, [Coxinha], (Cataguases)
 
 Comunidade 184: 
-190 - {Willian}, [Soneca], (Ervalia)
+186 - {Marcela Menezes}, [], (Cataguases)
 
 Comunidade 185: 
-195 - {Gabriel}, [Bolão], (Ervalia)
+190 - {Willian}, [Soneca], (Ervalia)
 
 Comunidade 186: 
-196 - {Julia Castro}, [], (Juiz de Fora)
+195 - {Gabriel}, [Bolão], (Ervalia)
 
 Comunidade 187: 
-197 - {Jesus Felipe}, [], (Rio Pomba)
+196 - {Julia Castro}, [], (Juiz de Fora)
 
 Comunidade 188: 
-198 - {Thiago Mota}, [], (Alem Paraiba)
+197 - {Jesus Felipe}, [], (Rio Pomba)
 
 Comunidade 189: 
-199 - {Luiza}, [Esposa Thiago Mota], (Cataguases)
+198 - {Thiago Mota}, [], (Alem Paraiba)
 
 Comunidade 190: 
-200 - {Lucas Mota Couto}, [], (Rio Pomba)
+199 - {Luiza}, [Esposa Thiago Mota], (Cataguases)
 
 Comunidade 191: 
-201 - {Matheus Baffa}, [], (Rio Pomba)
+200 - {Lucas Mota Couto}, [], (Rio Pomba)
 
 Comunidade 192: 
-202 - {Diego Noceli}, [], (Rio Pomba)
+201 - {Matheus Baffa}, [], (Rio Pomba)
 
 Comunidade 193: 
-203 - {Vitor Ferreira}, [Vitim], (Rio Pomba)
+202 - {Diego Noceli}, [], (Rio Pomba)
 
 Comunidade 194: 
-204 - {Gabriel Lellis}, [], (Rio Pomba)
+203 - {Vitor Ferreira}, [Vitim], (Rio Pomba)
 
 Comunidade 195: 
-205 - {Leonardo Faeda}, [], (Rio Pomba)
+204 - {Gabriel Lellis}, [], (Rio Pomba)
 
 Comunidade 196: 
-212 - {Kaio}, [], (Cataguases)
+205 - {Leonardo Faeda}, [], (Rio Pomba)
 
 Comunidade 197: 
-216 - {Lucas Tomaz}, [], (Leopoldina)
+212 - {Kaio}, [], (Cataguases)
 
 Comunidade 198: 
-217 - {Tamires}, [], (Leopoldina)
+216 - {Lucas Tomaz}, [], (Leopoldina)
 
 Comunidade 199: 
-218 - {Maria Julia}, [], (Cataguases)
+217 - {Tamires}, [], (Leopoldina)
 
 Comunidade 200: 
-219 - {Amanda Ozava}, [], (Cataguases)
+218 - {Maria Julia}, [], (Cataguases)
 
 Comunidade 201: 
-220 - {Heduarda Bollini}, [], (Leopoldina)
+219 - {Amanda Ozava}, [], (Cataguases)
 
 Comunidade 202: 
-221 - {Tarcisio}, [], (Leopoldina)
+220 - {Heduarda Bollini}, [], (Leopoldina)
 
 Comunidade 203: 
-223 - {Rogerio}, [], (Recreio)
+221 - {Tarcisio}, [], (Leopoldina)
 
 Comunidade 204: 
-224 - {Mauro Andries}, [], (Recreio)
+223 - {Rogerio}, [], (Recreio)
 
 Comunidade 205: 
-233 - {Diogo Carvalho}, [Dioguin], (Cataguases)
+224 - {Mauro Andries}, [], (Recreio)
 
 Comunidade 206: 
-234 - {Italo Aurelio}, [], (Cataguases)
+233 - {Diogo Carvalho}, [Dioguin], (Cataguases)
 
 Comunidade 207: 
-235 - {Igor Lamoia}, [], (Cataguases)
+234 - {Italo Aurelio}, [], (Cataguases)
 
 Comunidade 208: 
-237 - {Felipe Pacheco}, [], (Leopoldina)
+235 - {Igor Lamoia}, [], (Cataguases)
 
 Comunidade 209: 
-238 - {Gabriel Macedo}, [DuRock], (Leopoldina)
+237 - {Felipe Pacheco}, [], (Leopoldina)
 
 Comunidade 210: 
-240 - {Adriano Ribeiro}, [], (Cataguases)
+238 - {Gabriel Macedo}, [DuRock], (Leopoldina)
 
 Comunidade 211: 
-241 - {Maria Elisa}, [], (Cataguases)
+240 - {Adriano Ribeiro}, [], (Cataguases)
 
 Comunidade 212: 
-242 - {Felipe Moura}, [], (Cataguases)
+241 - {Maria Elisa}, [], (Cataguases)
 
 Comunidade 213: 
-243 - {Elvis Freitas}, [], (Cataguases)
+242 - {Felipe Moura}, [], (Cataguases)
 
 Comunidade 214: 
-264 - {Lucas Bruno}, [baiano], (Bahia)
+243 - {Elvis Freitas}, [], (Cataguases)
 
 Comunidade 215: 
-265 - {Elvis Martins}, [], (Cataguases)
+264 - {Lucas Bruno}, [baiano], (Bahia)
 
 Comunidade 216: 
-266 - {Bruno Resende}, [], (Cataguases)
+265 - {Elvis Martins}, [], (Cataguases)
 
 Comunidade 217: 
-267 - {Hugo Angelis}, [], (Leopoldina)
+266 - {Bruno Resende}, [], (Cataguases)
 
 Comunidade 218: 
-268 - {Helton Pojo}, [], (Leopoldina)
+267 - {Hugo Angelis}, [], (Leopoldina)
 
 Comunidade 219: 
-269 - {Dhyovania Alvarez}, [], (Leopoldina)
+268 - {Helton Pojo}, [], (Leopoldina)
 
 Comunidade 220: 
-270 - {Carolina Alvarez}, [], (Leopoldina)
+269 - {Dhyovania Alvarez}, [], (Leopoldina)
 
 Comunidade 221: 
-271 - {Rodrigo Venetillo}, [Rodi], (RJ)
+270 - {Carolina Alvarez}, [], (Leopoldina)
 
 Comunidade 222: 
-272 - {Sophia Coura}, [], (Leopoldina)
+271 - {Rodrigo Venetillo}, [Rodi], (RJ)
 
 Comunidade 223: 
-273 - {Marcelo Americo}, [], (Leopoldina)
+272 - {Sophia Coura}, [], (Leopoldina)
 
 Comunidade 224: 
-274 - {Hiago Pinazzi}, [], (Leopoldina)
+273 - {Marcelo Americo}, [], (Leopoldina)
 
 Comunidade 225: 
-275 - {Marcela Gomes}, [], (Cataguases)
+274 - {Hiago Pinazzi}, [], (Leopoldina)
 
 Comunidade 226: 
-276 - {Gustavo Rocha}, [], (Leopoldina)
+275 - {Marcela Gomes}, [], (Cataguases)
 
 Comunidade 227: 
-277 - {Artur Rodrigues Aguiar}, [], (Leopoldina)
+276 - {Gustavo Rocha}, [], (Leopoldina)
 
 Comunidade 228: 
-278 - {Marcelo Augusto Correa}, [], (Leopoldina)
+277 - {Artur Rodrigues Aguiar}, [], (Leopoldina)
 
 Comunidade 229: 
-279 - {Laan Carlos}, [], (Leopoldina)
+278 - {Marcelo Augusto Correa}, [], (Leopoldina)
 
 Comunidade 230: 
-359 - {Matheus Xavier}, [], (Cataguases)
+279 - {Laan Carlos}, [], (Leopoldina)
 
 Comunidade 231: 
-360 - {Gabriel Montes}, [], (Cataguases)
+359 - {Matheus Xavier}, [], (Cataguases)
 
 Comunidade 232: 
-361 - {João Pedro}, [], (Cataguases)
+360 - {Gabriel Montes}, [], (Cataguases)
 
 Comunidade 233: 
-362 - {Emerson Moraes}, [], (Cataguases)
+361 - {João Pedro}, [], (Cataguases)
 
 Comunidade 234: 
-363 - {Alexandre}, [Xandão], (Cataguases)
+362 - {Emerson Moraes}, [], (Cataguases)
 
 Comunidade 235: 
-364 - {Maxwel}, [Lolão], (Cataguases)
+363 - {Alexandre}, [Xandão], (Cataguases)
 
 Comunidade 236: 
-365 - {Lucas Silva}, [], (Cataguases)
+364 - {Maxwel}, [Lolão], (Cataguases)
 
 Comunidade 237: 
-366 - {João Pedro}, [], (Cataguases)
+365 - {Lucas Silva}, [], (Cataguases)
 
 Comunidade 238: 
-367 - {Ariel Siqueira}, [], (Cataguases)
+366 - {João Pedro}, [], (Cataguases)
 
 Comunidade 239: 
-368 - {Claudio Filho}, [Claudin], (Cataguases)
+367 - {Ariel Siqueira}, [], (Cataguases)
 
 Comunidade 240: 
-369 - {Thomaz Xavier}, [], (Cataguases)
+368 - {Claudio Filho}, [Claudin], (Cataguases)
 
 Comunidade 241: 
-370 - {Richard}, [], (Cataguases)
+369 - {Thomaz Xavier}, [], (Cataguases)
 
 Comunidade 242: 
-371 - {Yuri Bebiano}, [], (Cataguases)
+370 - {Richard}, [], (Cataguases)
 
 Comunidade 243: 
-372 - {Vitor Hugo}, [], (Cataguases)
+371 - {Yuri Bebiano}, [], (Cataguases)
 
 Comunidade 244: 
-373 - {Ygor Candido}, [Ratin], (Cataguases)
+372 - {Vitor Hugo}, [], (Cataguases)
 
 Comunidade 245: 
-374 - {Marcus Santos}, [], (Cataguases)
+373 - {Ygor Candido}, [Ratin], (Cataguases)
 
 Comunidade 246: 
-375 - {Mauricio Ribeiro}, [], (Cataguases)
+374 - {Marcus Santos}, [], (Cataguases)
 
 Comunidade 247: 
-376 - {Lucas Andrade}, [Andrade], (Cataguases)
+375 - {Mauricio Ribeiro}, [], (Cataguases)
 
 Comunidade 248: 
-377 - {Tourin}, [Tourin], (Cataguases)
+376 - {Lucas Andrade}, [Andrade], (Cataguases)
 
 Comunidade 249: 
-22 -  {Lourdes Sasso},  [],  (Dona Euzebia)
+377 - {Tourin}, [Tourin], (Cataguases)
 
 Comunidade 250: 
-23 -  {Albertino Sasso},  [],  (Dona Euzebia)
+22 -  {Lourdes Sasso},  [],  (Dona Euzebia)
 
 Comunidade 251: 
-24 -  {Sergio Antonio Sasso},  [Nem],  (Dona Euzebia)
+23 -  {Albertino Sasso},  [],  (Dona Euzebia)
 
 Comunidade 252: 
-25 -  {Maria Aparecida Narcisa Sasso},  [],  (Dona Euzebia)
+24 -  {Sergio Antonio Sasso},  [Nem],  (Dona Euzebia)
 
 Comunidade 253: 
-26 -  {Eduarda Sasso},  [Dudu],  (Dona Euzebia)
+25 -  {Maria Aparecida Narcisa Sasso},  [],  (Dona Euzebia)
 
 Comunidade 254: 
-27 -  {Alice Sasso},  [],  (Dona Euzebia)
+26 -  {Eduarda Sasso},  [Dudu],  (Dona Euzebia)
 
 Comunidade 255: 
-28 -  {Isabela Sasso},  [],  (Dona Euzebia)
+27 -  {Alice Sasso},  [],  (Dona Euzebia)
 
 Comunidade 256: 
-29 -  {Luciano Sasso},  [],  (Dona Euzebia)
+28 -  {Isabela Sasso},  [],  (Dona Euzebia)
 
 Comunidade 257: 
-30 -  {Juliana},  [Esposa Luciano],  (Dona Euzebia)
+29 -  {Luciano Sasso},  [],  (Dona Euzebia)
 
 Comunidade 258: 
-31 -  {Williane Rodrigues},  [],  (Cataguases)
+30 -  {Juliana},  [Esposa Luciano],  (Dona Euzebia)
 
 Comunidade 259: 
-32 -  {Maria Julia},  [],  (Dona Euzebia)
+31 -  {Williane Rodrigues},  [],  (Cataguases)
 
 Comunidade 260: 
-43 -  {Lorena},  [Esposa Lucas],  (Dona Euzebia)
+32 -  {Maria Julia},  [],  (Dona Euzebia)
 
 Comunidade 261: 
-44 -  {Lukas},  [Lukinha],  (Dona Euzebia)
+43 -  {Lorena},  [Esposa Lucas],  (Dona Euzebia)
 
 Comunidade 262: 
-45 -  {Lais},  [],  (Dona Euzebia)
+44 -  {Lukas},  [Lukinha],  (Dona Euzebia)
 
 Comunidade 263: 
-47 -  {Monique},  [Esposa Mateus],  (Dona Euzebia)
+45 -  {Lais},  [],  (Dona Euzebia)
 
 Comunidade 264: 
-48 -  {Isadora},  [],  (Dona Euzebia)
+47 -  {Monique},  [Esposa Mateus],  (Dona Euzebia)
 
 Comunidade 265: 
-56 -  {Sebastião},  [Sebá],  (Astolfo Dutra)
+48 -  {Isadora},  [],  (Dona Euzebia)
 
 Comunidade 266: 
-58 -  {Diego},  [],  (Dona Euzebia)
+56 -  {Sebastião},  [Sebá],  (Astolfo Dutra)
 
 Comunidade 267: 
-59 -  {Lorenzo},  [],  (SP)
+58 -  {Diego},  [],  (Dona Euzebia)
 
 Comunidade 268: 
-60 -  {Bento},  [],  (SP)
+59 -  {Lorenzo},  [],  (SP)
 
 Comunidade 269: 
-61 -  {Maite},  [],  (SP)
+60 -  {Bento},  [],  (SP)
 
 Comunidade 270: 
-63 -  {Roberta},  [],  (Astolfo Dutra)
+61 -  {Maite},  [],  (SP)
 
 Comunidade 271: 
-64 -  {Hyoran},  [],  (Dona Euzebia)
+63 -  {Roberta},  [],  (Astolfo Dutra)
 
 Comunidade 272: 
-69 -  {Rodrigo},  [Marido Lidia],  (Dona Euzebia)
+64 -  {Hyoran},  [],  (Dona Euzebia)
 
 Comunidade 273: 
-282 - {Lais Black}, [], (Cataguases)
+69 -  {Rodrigo},  [Marido Lidia],  (Dona Euzebia)
 
 Comunidade 274: 
-284 - {Vinicius Receputi Moraes}, [Bode], (Cataguases)
+282 - {Lais Black}, [], (Cataguases)
 
 Comunidade 275: 
-285 - {Fabio Rocha}, [Fabim], (Cataguases)
+284 - {Vinicius Receputi Moraes}, [Bode], (Cataguases)
 
 Comunidade 276: 
-286 - {Giovana Rocha}, [], (Cataguases)
+285 - {Fabio Rocha}, [Fabim], (Cataguases)
 
 Comunidade 277: 
-287 - {Gabriel Bhering}, [], (Cataguases)
+286 - {Giovana Rocha}, [], (Cataguases)
 
 Comunidade 278: 
-288 - {Matheo Graciolli}, [], (Cataguases)
+287 - {Gabriel Bhering}, [], (Cataguases)
 
 Comunidade 279: 
-289 - {Tulio Sacchetto}, [], (Cataguases)
+288 - {Matheo Graciolli}, [], (Cataguases)
 
 Comunidade 280: 
-290 - {Beatriz Sacchetto}, [], (Cataguases)
+289 - {Tulio Sacchetto}, [], (Cataguases)
 
 Comunidade 281: 
-291 - {Igor Menezes}, [], (Cataguases)
+290 - {Beatriz Sacchetto}, [], (Cataguases)
 
 Comunidade 282: 
-292 - {Isabela Oliveira}, [], (Cataguases)
+291 - {Igor Menezes}, [], (Cataguases)
 
 Comunidade 283: 
-297 - {Lucas Vaz}, [], (Cataguases)
+292 - {Isabela Oliveira}, [], (Cataguases)
 
 Comunidade 284: 
-298 - {Bruno Silva}, [], (Cataguases)
+297 - {Lucas Vaz}, [], (Cataguases)
 
 Comunidade 285: 
-299 - {Fernando Teixeira}, [], (Dona Euzebia)
+298 - {Bruno Silva}, [], (Cataguases)
 
 Comunidade 286: 
-300 - {Douglas Reboredo}, [Mestre Douglas], (Cataguases)
+299 - {Fernando Teixeira}, [], (Dona Euzebia)
 
 Comunidade 287: 
-301 - {Chrystian Riguete}, [], (Cataguases)
+300 - {Douglas Reboredo}, [Mestre Douglas], (Cataguases)
 
 Comunidade 288: 
-302 - {Rayssa Rosa}, [Namorada Madella], (RJ)
+301 - {Chrystian Riguete}, [], (Cataguases)
 
 Comunidade 289: 
-303 - {Willian Xavier}, [], (Cataguases)
+302 - {Rayssa Rosa}, [Namorada Madella], (RJ)
 
 Comunidade 290: 
-304 - {Amanda Novaes}, [Namorada Pedro Resende], (Cataguases)
+303 - {Willian Xavier}, [], (Cataguases)
 
 Comunidade 291: 
-305 - {Carol Motta}, [], (Cataguases)
+304 - {Amanda Novaes}, [Namorada Pedro Resende], (Cataguases)
 
 Comunidade 292: 
-306 - {Byanca Ferreira}, [], (Cataguases)
+305 - {Carol Motta}, [], (Cataguases)
 
 Comunidade 293: 
-307 - {Felipe Moreira Duarte}, [Irmão Luiz Carlos], (Cataguases)
+306 - {Byanca Ferreira}, [], (Cataguases)
 
 Comunidade 294: 
-308 - {Paula Pontes}, [], (Leopoldina)
+307 - {Felipe Moreira Duarte}, [Irmão Luiz Carlos], (Cataguases)
 
 Comunidade 295: 
-309 - {Clara Peres}, [], (Cataguases)
+308 - {Paula Pontes}, [], (Leopoldina)
 
 Comunidade 296: 
-310 - {Diego Boechat}, [], (Cataguases)
+309 - {Clara Peres}, [], (Cataguases)
 
 Comunidade 297: 
-311 - {Thalissa Werneck}, [], (Cataguases)
+310 - {Diego Boechat}, [], (Cataguases)
 
 Comunidade 298: 
-312 - {Lais Carneiro}, [], (Cataguases)
+311 - {Thalissa Werneck}, [], (Cataguases)
 
 Comunidade 299: 
-313 - {Maria Clara Arquete}, [], (Cataguases)
+312 - {Lais Carneiro}, [], (Cataguases)
 
 Comunidade 300: 
-314 - {Maria Eduarda Gonçalves}, [Amiga Brunna], (Cataguases)
+313 - {Maria Clara Arquete}, [], (Cataguases)
 
 Comunidade 301: 
-315 - {Maria Giulia Sousa}, [], (Cataguases)
+314 - {Maria Eduarda Gonçalves}, [Amiga Brunna], (Cataguases)
 
 Comunidade 302: 
-316 - {Louise Ghastine}, [], (Cataguases)
+315 - {Maria Giulia Sousa}, [], (Cataguases)
 
 Comunidade 303: 
-317 - {Deborah Oliveira}, [], (Cataguases)
+316 - {Louise Ghastine}, [], (Cataguases)
 
 Comunidade 304: 
-318 - {Lara Carvalho}, [], (Cataguases)
+317 - {Deborah Oliveira}, [], (Cataguases)
 
 Comunidade 305: 
-319 - {Lucas Quirino}, [], (Cataguases)
+318 - {Lara Carvalho}, [], (Cataguases)
 
 Comunidade 306: 
-320 - {Victor Vargas}, [], (Cataguases)
+319 - {Lucas Quirino}, [], (Cataguases)
 
 Comunidade 307: 
-321 - {Manoel Victor Moreira}, [Linguinha], (Cataguases)
+320 - {Victor Vargas}, [], (Cataguases)
 
 Comunidade 308: 
-322 - {Amanda Mescolin}, [], (Cataguases)
+321 - {Manoel Victor Moreira}, [Linguinha], (Cataguases)
 
 Comunidade 309: 
-323 - {Maria Claro Romanhol}, [], (Cataguases)
+322 - {Amanda Mescolin}, [], (Cataguases)
 
 Comunidade 310: 
-324 - {Ana Carolina Montes}, [], (Cataguases)
+323 - {Maria Claro Romanhol}, [], (Cataguases)
 
 Comunidade 311: 
-325 - {Ana Carolina Teixeira Ferrari}, [], (Astolfo Dutra)
+324 - {Ana Carolina Montes}, [], (Cataguases)
 
 Comunidade 312: 
-326 - {Eduarda Resende}, [], (Mirai)
+325 - {Ana Carolina Teixeira Ferrari}, [], (Astolfo Dutra)
 
 Comunidade 313: 
-327 - {Felipe Gazola}, [], (Cataguases)
+326 - {Eduarda Resende}, [], (Mirai)
 
 Comunidade 314: 
-328 - {Maria Eduarda Rocha}, [], (Cataguases)
+327 - {Felipe Gazola}, [], (Cataguases)
 
 Comunidade 315: 
-329 - {Gabriela Rezende}, [], (Cataguases)
+328 - {Maria Eduarda Rocha}, [], (Cataguases)
 
 Comunidade 316: 
-330 - {Lavinia Saldanha}, [], (Cataguases)
+329 - {Gabriela Rezende}, [], (Cataguases)
 
 Comunidade 317: 
-331 - {Pollyana Ferreira}, [], (Cataguases)
+330 - {Lavinia Saldanha}, [], (Cataguases)
 
 Comunidade 318: 
-332 - {Livia Emidio}, [], (Cataguases)
+331 - {Pollyana Ferreira}, [], (Cataguases)
 
 Comunidade 319: 
-333 - {Samila Gonçalves}, [], (Cataguases)
+332 - {Livia Emidio}, [], (Cataguases)
 
 Comunidade 320: 
-334 - {Wirio Romanhol}, [], (Cataguases)
+333 - {Samila Gonçalves}, [], (Cataguases)
 
 Comunidade 321: 
-335 - {Carol Borges}, [], (Cataguases)
+334 - {Wirio Romanhol}, [], (Cataguases)
 
 Comunidade 322: 
-336 - {Isabela Menta}, [], (Cataguases)
+335 - {Carol Borges}, [], (Cataguases)
 
 Comunidade 323: 
-337 - {Eduarda Queiroz}, [], (Cataguases)
+336 - {Isabela Menta}, [], (Cataguases)
 
 Comunidade 324: 
-338 - {Isadora Mota}, [], (Rio Pomba)
+337 - {Eduarda Queiroz}, [], (Cataguases)
 
 Comunidade 325: 
-340 - {Rafaela Ramos}, [], (Cataguases)
+338 - {Isadora Mota}, [], (Rio Pomba)
 
 Comunidade 326: 
-339 - {Mariana Masse}, [], (Cataguases)
+340 - {Rafaela Ramos}, [], (Cataguases)
 
 Comunidade 327: 
-341 - {Cristal Cardoso}, [], (Cataguases)
+339 - {Mariana Masse}, [], (Cataguases)
 
 Comunidade 328: 
-342 - {Pedro Vitor}, [], (Cataguases)
+341 - {Cristal Cardoso}, [], (Cataguases)
 
 Comunidade 329: 
-343 - {Beatriz Freitas}, [], (Cataguases)
+342 - {Pedro Vitor}, [], (Cataguases)
 
 Comunidade 330: 
-344 - {Nayara Rosa}, [], (Cataguases)
+343 - {Beatriz Freitas}, [], (Cataguases)
 
 Comunidade 331: 
-345 - {Leticia Leal}, [], (Cataguases)
+344 - {Nayara Rosa}, [], (Cataguases)
 
 Comunidade 332: 
-346 - {Tais Lopes}, [], (Cataguases)
+345 - {Leticia Leal}, [], (Cataguases)
 
 Comunidade 333: 
-347 - {Marina Nunes}, [], (Cataguases)
+346 - {Tais Lopes}, [], (Cataguases)
 
 Comunidade 334: 
-348 - {Millena Moura}, [], (Rio Pomba)
+347 - {Marina Nunes}, [], (Cataguases)
 
 Comunidade 335: 
-349 - {Maria Julia Campos Salles}, [], (Cataguases)
+348 - {Millena Moura}, [], (Rio Pomba)
 
 Comunidade 336: 
-350 - {Ana Clara Diniz Vargas}, [], (Cataguases)
+349 - {Maria Julia Campos Salles}, [], (Cataguases)
 
 Comunidade 337: 
-351 - {Isabella Bernardes}, [], (Cataguases)
+350 - {Ana Clara Diniz Vargas}, [], (Cataguases)
 
 Comunidade 338: 
-352 - {Raphaela Botarro}, [], (Cataguases)
+351 - {Isabella Bernardes}, [], (Cataguases)
 
 Comunidade 339: 
-353 - {Nathalia Assis}, [], (Cataguases)
+352 - {Raphaela Botarro}, [], (Cataguases)
 
 Comunidade 340: 
-354 - {Ana Carolina Furtado}, [Irmã Carlos Estevão], (Astolfo Dutra)
+353 - {Nathalia Assis}, [], (Cataguases)
 
 Comunidade 341: 
-355 - {Jordana Riguete}, [Irmã Heitor], (Cataguases)
+354 - {Ana Carolina Furtado}, [Irmã Carlos Estevão], (Astolfo Dutra)
 
 Comunidade 342: 
-356 - {Maria Clara Machado}, [], (Dona Euzebia)
+355 - {Jordana Riguete}, [Irmã Heitor], (Cataguases)
 
 Comunidade 343: 
-394 - {Waschington Henrique}, [], (Cataguases)
+356 - {Maria Clara Machado}, [], (Dona Euzebia)
 
 Comunidade 344: 
-392 - {Thomas Melo}, [], (Cataguases)
+394 - {Waschington Henrique}, [], (Cataguases)
 
 Comunidade 345: 
-393 - {Ulisses Prata}, [], (Cataguases)
+392 - {Thomas Melo}, [], (Cataguases)
 
 Comunidade 346: 
-391 - {Pedro Henrique}, [Pedrão], (Cataguases)
+393 - {Ulisses Prata}, [], (Cataguases)
 
 Comunidade 347: 
-390 - {Mateus Brito}, [], (Cataguases)
+391 - {Pedro Henrique}, [Pedrão], (Cataguases)
 
 Comunidade 348: 
-389 - {Marcos Vinicius}, [Gota], (Cataguases)
+390 - {Mateus Brito}, [], (Cataguases)
 
 Comunidade 349: 
-388 - {Marco Antonio Lombarde}, [Japa], (Cataguases)
+389 - {Marcos Vinicius}, [Gota], (Cataguases)
 
 Comunidade 350: 
-387 - {Lucas Soares}, [Kastor], (Cataguases)
+388 - {Marco Antonio Lombarde}, [Japa], (Cataguases)
 
 Comunidade 351: 
-386 - {Leonam Fialho}, [], (Cataguases)
+387 - {Lucas Soares}, [Kastor], (Cataguases)
 
 Comunidade 352: 
-385 - {José Alicio}, [], (Cataguases)
+386 - {Leonam Fialho}, [], (Cataguases)
 
 Comunidade 353: 
-384 - {Guilherme Dioguinho}, [], (Cataguases)
+385 - {José Alicio}, [], (Cataguases)
 
 Comunidade 354: 
-383 - {Frederico Lotti}, [], (Cataguases)
+384 - {Guilherme Dioguinho}, [], (Cataguases)
 
 Comunidade 355: 
-382 - {Daniel}, [Filho Adinilson], (Cataguases)
+383 - {Frederico Lotti}, [], (Cataguases)
 
 Comunidade 356: 
-381 - {Carlos Alberto}, [Bebeto], (Cataguases)
+382 - {Daniel}, [Filho Adinilson], (Cataguases)
 
 Comunidade 357: 
-380 - {Alberto Dionizio}, [], (Cataguases)
+381 - {Carlos Alberto}, [Bebeto], (Cataguases)
 
 Comunidade 358: 
-379 - {Adinilson}, [], (Cataguases)
+380 - {Alberto Dionizio}, [], (Cataguases)
 
 Comunidade 359: 
-378 - {Alexandre Ferraz}, [Birita], (Cataguases)
+379 - {Adinilson}, [], (Cataguases)
 
 Comunidade 360: 
-187 - {Luana}, [], (Merces)
+378 - {Alexandre Ferraz}, [Birita], (Cataguases)
 
 Comunidade 361: 
-131 -  {Adriana },  [Professora],  (Cataguases)
+187 - {Luana}, [], (Merces)
 
 Comunidade 362: 
-132 -  {Adriano},  [Professor],  (Cataguases)
+131 -  {Adriana },  [Professora],  (Cataguases)
 
 Comunidade 363: 
-133 -  {Michelle},  [Professora],  (Cataguases)
+132 -  {Adriano},  [Professor],  (Cataguases)
 
 Comunidade 364: 
-134 -  {Helvia Peres},  [Professora],  (Cataguases)
+133 -  {Michelle},  [Professora],  (Cataguases)
 
 Comunidade 365: 
-135 -  {Luiz Leitão},  [Professor],  (Cataguases)
+134 -  {Helvia Peres},  [Professora],  (Cataguases)
 
 Comunidade 366: 
-136 -  {Renata Barbosa},  [Professora],  (Cataguases)
+135 -  {Luiz Leitão},  [Professor],  (Cataguases)
 
 Comunidade 367: 
-137 -  {Edna},  [Professora],  (Cataguases)
+136 -  {Renata Barbosa},  [Professora],  (Cataguases)
 
 Comunidade 368: 
-180 - {Lucas Werneck}, [Lucão - Professor], (Cataguases)
+137 -  {Edna},  [Professora],  (Cataguases)
 
 Comunidade 369: 
-181 - {Gustavo Pereira Romanhol}, [Professor], (Cataguases)
+180 - {Lucas Werneck}, [Lucão - Professor], (Cataguases)
 
 Comunidade 370: 
-182 - {Emmanuel Ferreira}, [Professor], (Cataguases)
+181 - {Gustavo Pereira Romanhol}, [Professor], (Cataguases)
 
 Comunidade 371: 
-183 - {Julio Proença}, [Professor], (Cataguases)
+182 - {Emmanuel Ferreira}, [Professor], (Cataguases)
 
 Comunidade 372: 
-245 - {Erica}, [Professora], (Juiz de Fora)
+183 - {Julio Proença}, [Professor], (Cataguases)
 
 Comunidade 373: 
-246 - {Michelle}, [Professora], (Leopoldina)
+245 - {Erica}, [Professora], (Juiz de Fora)
 
 Comunidade 374: 
-247 - {Gabriella}, [Professora], (Leopoldina)
+246 - {Michelle}, [Professora], (Leopoldina)
 
 Comunidade 375: 
-248 - {Tatiana}, [Professora], (Leopoldina)
+247 - {Gabriella}, [Professora], (Leopoldina)
 
 Comunidade 376: 
-249 - {Natalia}, [Professora], (Piacatuba)
+248 - {Tatiana}, [Professora], (Leopoldina)
 
 Comunidade 377: 
-250 - {Luis Augusto}, [Professor], (Juiz de Fora)
+249 - {Natalia}, [Professora], (Piacatuba)
 
 Comunidade 378: 
-251 - {Ulisses}, [Professor], (Cataguases)
+250 - {Luis Augusto}, [Professor], (Juiz de Fora)
 
 Comunidade 379: 
-252 - {Evaristo}, [Professor], (Cataguases)
+251 - {Ulisses}, [Professor], (Cataguases)
 
 Comunidade 380: 
-253 - {Diego}, [Professor], (Cataguases)
+252 - {Evaristo}, [Professor], (Cataguases)
 
 Comunidade 381: 
 254 - {Joventino}, [Professor], (Itamarati)

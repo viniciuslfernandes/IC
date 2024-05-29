@@ -123,10 +123,14 @@ Comunidade 1:
 97 - {Helena Rocha}, [], (Cataguases)
 95 - {Rodrigo Novais}, [], (Cataguases)
 101 - {Lucas Barcaro}, [], (Cataguases)
+103 - {Thiago Silva}, [colado_alberson], (Cataguases)
 104 - {Karol Dias}, [namorada_celim], (Cataguases)
 106 - {Wesley Almeida}, [], (Cataguases)
 109 - {Helena Mello}, [], (Cataguases)
 116 - {Gabriela Ravaglia}, [sala_sebrae], (Cataguases)
+119 - {Fafa}, [treinador], (Cataguases)
+120 - {Eric}, [treinador], (Cataguases)
+125 - {Thiago Henriques}, [tic tac], (Cataguases)
 151 - {Larissa Fialho}, [sebrae], (Cataguases)
 169 - {Simone}, [secretaria], (Cataguases)
 170 - {Suellena}, [secretaria], (Cataguases)
@@ -157,6 +161,8 @@ Comunidade 1:
 426 - {Cintia Cardoso}, [mae_lara], (Cataguases)
 430 - {Lucas Gribel}, [trieno], (Cataguases)
 431 - {Vinicius Mantovani}, [treino], (Cataguases)
+454 - {Daniel Ferreira}, [cafe], (Cataguases)
+482 - {Pedro Victor }, [futevolei], (Cataguases)
 483 - {Diogo Azevedo}, [futevolei], (Cataguases)
 492 - {Gabriela Moraes}, [namorada_felipe], (Cataguases)
 509 - {Lucas Chagas}, [], (Cataguases)
@@ -373,21 +379,6 @@ Comunidade 5:
 532 - {Clara Brito}, [cefet], (Cataguases)
 
 Comunidade 6: 
-135 - {Pedro Gabriel}, [treino], (Cataguases)
-343 - {Joao Antonio}, [treino/jogo], (Cataguases)
-537 - {Paulo Cesar}, [paulin_amigoDouglas], (Cataguases)
-119 - {Fafa}, [treinador], (Cataguases)
-120 - {Eric}, [treinador], (Cataguases)
-125 - {Thiago Henriques}, [tic tac], (Cataguases)
-309 - {Caio Madeira}, [futebol], (Cataguases)
-455 - {Milena Neves}, [mulher_cafe], (Cataguases)
-454 - {Daniel Ferreira}, [cafe], (Cataguases)
-482 - {Pedro Victor }, [futevolei], (Cataguases)
-525 - {Marcos Lacerda}, [treino_remo], (Cataguases)
-529 - {Gabriel Riguete}, [cefet], (Cataguases)
-530 - {Raul Carmo}, [peladas_remo], (Cataguases)
-
-Comunidade 7: 
 480 - {Ivan}, [marido_joselice], (Cataguases)
 277 - {Geraldo Martins}, [p2], (Cataguases)
 445 - {Murilo}, [vizinho], (Cataguases)
@@ -401,7 +392,7 @@ Comunidade 7:
 479 - {Joselice}, [mulher_ivan], (Cataguases)
 481 - {Julia }, [filha_ivan], (Cataguases)
 
-Comunidade 8: 
+Comunidade 7: 
 148 - {Amanda Santos}, [loja], (Cataguases)
 149 - {Jorge Cravo}, [loja], (Cataguases)
 150 - {Jose Augusto}, [c2], (Cataguases)
@@ -415,7 +406,7 @@ Comunidade 8:
 139 - {Samara Oliveira}, [loja], (Cataguases)
 138 - {Gustavo }, [loja], (Cataguases)
 
-Comunidade 9: 
+Comunidade 8: 
 190 - {Jean Vital}, [talentim], (Cataguases)
 191 - {Bruno Reis}, [brunim bp], (Cataguases)
 240 - {Arthur Guilherme}, [bp], (Cataguases)
@@ -423,12 +414,12 @@ Comunidade 9:
 285 - {Daniel Paulino }, [rua], (Cataguases)
 475 - {Rafael Goncalves}, [rua], (Cataguases)
 476 - {Gabriel Goncalves}, [], (Cataguases)
-524 - {Joao Celio}, [tchunay], (Cataguases)
 232 - {Ramon Campos}, [minha rua], (Cataguases)
 278 - {Richard Lucca}, [rua], (Cataguases)
 513 - {Lucas Souza}, [rua], (Cataguases)
+515 - {Gabriel Cabral}, [primo_adriano], (Cataguases)
 
-Comunidade 10: 
+Comunidade 9: 
 118 - {Matheus Magalhaes}, [bombado], (Cataguases)
 121 - {Thomas Celestino}, [pelada], (Cataguases)
 485 - {Marco Antonio Lombarde}, [pelada], (Cataguases)
@@ -439,6 +430,18 @@ Comunidade 10:
 484 - {Washington}, [pelada], (Cataguases)
 487 - {Carlos Alberto}, [bebeto], (Cataguases)
 488 - {Marcos Vinicius }, [gota_pelada], (Cataguases)
+
+Comunidade 10: 
+327 - {Matheus Rodrigues}, [matheuzim_barbeiro], (Cataguases)
+337 - {Henrique Dornelas}, [], (Cataguases)
+435 - {Rick Gomes}, [queideia_rickjhony], (Cataguases)
+436 - {Cristina Freitas}, [irma_tiano], (Cataguases)
+437 - {Itamar Dornelas}, [cunhado_tiano], (Cataguases)
+438 - {Jose Ivo}, [sobrinho_tiano], (Cataguases)
+441 - {Victoria Rodrigues}, [filha_dinha], (Cataguases)
+440 - {Marcelo Fernandes}, [cunhado_tiano], (Cataguases)
+439 - {Aparecida Freitas}, [dinha], (Cataguases)
+525 - {Marcos Lacerda}, [treino_remo], (Cataguases)
 
 Comunidade 11: 
 461 - {Mikael Paes}, [primo_milena], (Cataguases)
@@ -453,15 +456,15 @@ Comunidade 11:
 463 - {Marcelo}, [Marido_julaine], (Cataguases)
 
 Comunidade 12: 
-327 - {Matheus Rodrigues}, [matheuzim_barbeiro], (Cataguases)
-337 - {Henrique Dornelas}, [], (Cataguases)
-435 - {Rick Gomes}, [queideia_rickjhony], (Cataguases)
-436 - {Cristina Freitas}, [irma_tiano], (Cataguases)
-437 - {Itamar Dornelas}, [cunhado_tiano], (Cataguases)
-438 - {Jose Ivo}, [sobrinho_tiano], (Cataguases)
-441 - {Victoria Rodrigues}, [filha_dinha], (Cataguases)
-440 - {Marcelo Fernandes}, [cunhado_tiano], (Cataguases)
-439 - {Aparecida Freitas}, [dinha], (Cataguases)
+266 - {Pedro Henrique Souza}, [cozinheiro], (Cataguases)
+308 - {Marcos Vinicius }, [marcao preguica futebol], (Cataguases)
+343 - {Joao Antonio}, [treino/jogo], (Cataguases)
+518 - {Jhonattan Santos}, [nem_cat], (Cataguases)
+282 - {Matheus Varella}, [bambi], (Cataguases)
+289 - {Gustavo Petrocelli}, [], (Cataguases)
+324 - {Jair Vidal}, [], (Cataguases)
+520 - {Eduardo Pereira}, [dudu_treinoCat], (Cataguases)
+536 - {Franklin Pinheiro}, [treino], (Cataguases)
 
 Comunidade 13: 
 252 - {Leonardo Gomes}, [juiz], (Leopoldina)
@@ -473,194 +476,187 @@ Comunidade 13:
 250 - {Leticia Maria}, [mulher bertin], (Palma)
 
 Comunidade 14: 
+306 - {Paulo Rocha}, [paulo oreia], (Cataguases)
+307 - {Marcos Silva}, [markim poli], (Cataguases)
+319 - {Juan Magno}, [], (Cataguases)
+320 - {Ana Julia}, [namorada juan magno], (Cataguases)
+325 - {Tomas Matos}, [treino_fotografo], (Cataguases)
+326 - {Leo Vital}, [leo cocao], (Cataguases)
+
+Comunidade 15: 
 499 - {Douglas Lopes}, [loja], (Cataguases)
 193 - {Hudson Teixeira}, [gudim], (Cataguases)
 194 - {Victhor Uriel}, [jamaica], (Cataguases)
-518 - {Jhonattan Santos}, [nem_cat], (Cataguases)
+524 - {Joao Celio}, [tchunay], (Cataguases)
 500 - {Heitor }, [irmao_gudim], (Cataguases)
-515 - {Gabriel Cabral}, [primo_adriano], (Cataguases)
-
-Comunidade 15: 
-256 - {Marcus Vinicius Abreu}, [], (Cataguases)
-324 - {Jair Vidal}, [], (Cataguases)
-490 - {Daniel Sachetto}, [sebrae], (Cataguases)
-491 - {Felipe Sachetto}, [pelada], (Cataguases)
-512 - {Arthur Maia}, [goleiro_bmf], (Cataguases)
-516 - {Andre Luis de Filippo}, [dede], (Cataguases)
 
 Comunidade 16: 
+537 - {Paulo Cesar}, [paulin_amigoDouglas], (Cataguases)
+310 - {Reinaldo Vieira}, [Carmo], (Cataguases)
+522 - {Flavio Alexandre}, [patati], (Cataguases)
+529 - {Gabriel Riguete}, [cefet], (Cataguases)
+530 - {Raul Carmo}, [peladas_remo], (Cataguases)
+
+Comunidade 17: 
 434 - {Jose }, [pai_arthur], (Cataguases)
-103 - {Thiago Silva}, [colado_alberson], (Cataguases)
 113 - {Marcelo Teixeira de Sousa}, [marcelo_pai], (Cataguases)
 114 - {Solange Ravaglia}, [mae_celim], (Cataguases)
 115 - {Laura Ravaglia}, [irma_celim], (Cataguases)
 460 - {Maria Luiza}, [irma_arthur], (Cataguases)
 
-Comunidade 17: 
-306 - {Paulo Rocha}, [paulo oreia], (Cataguases)
-307 - {Marcos Silva}, [markim poli], (Cataguases)
-319 - {Juan Magno}, [], (Cataguases)
-325 - {Tomas Matos}, [treino_fotografo], (Cataguases)
-326 - {Leo Vital}, [leo cocao], (Cataguases)
-536 - {Franklin Pinheiro}, [treino], (Cataguases)
-
 Comunidade 18: 
 247 - {Matheus Lana}, [mutante], (Cataguases)
 248 - {Murilo Lima}, [murilolo], (Cataguases)
 260 - {Joao Marcos Teixeira}, [], (Cataguarino)
-282 - {Matheus Varella}, [bambi], (Cataguases)
 321 - {Matheus Poiani}, [], (Cataguases)
 
 Comunidade 19: 
-266 - {Pedro Henrique Souza}, [cozinheiro], (Cataguases)
-308 - {Marcos Vinicius }, [marcao preguica futebol], (Cataguases)
-288 - {Felipe }, [feijao], (Cataguases)
-289 - {Gustavo Petrocelli}, [], (Cataguases)
-
-Comunidade 20: 
 265 - {Bruna Piris}, [sebrae], (Cataguases)
 298 - {Ana Luiza Lamolha}, [amiga milena], (Cataguases)
 299 - {Livia Ferreira}, [], (Cataguases)
 322 - {Yuri Vaz}, [uber], (Cataguases)
 
+Comunidade 20: 
+135 - {Pedro Gabriel}, [treino], (Cataguases)
+269 - {Ruan Cordeiro}, [cataguarino], (Cataguarino)
+309 - {Caio Madeira}, [futebol], (Cataguases)
+455 - {Milena Neves}, [mulher_cafe], (Cataguases)
+
 Comunidade 21: 
+329 - {Santiago Arquete}, [], (Cataguases)
+512 - {Arthur Maia}, [goleiro_bmf], (Cataguases)
+528 - {Leonardo Paiva}, [treino_bmf_leozim], (Cataguases)
+
+Comunidade 22: 
 427 - {Bruna Henriques}, [unimed], (Cataguases)
 428 - {Reinaldo Abrita}, [maridoBruna], (Cataguases)
 429 - {Isabella Abrita}, [Filha Bruna], (Cataguases)
 
-Comunidade 22: 
+Comunidade 23: 
 456 - {Milena Reis}, [vizinha_voGraca], (Cataguases)
 457 - {Amanda Reis}, [vizinha_voGraca], (Cataguases)
 458 - {Alessandra Reis}, [vizinha_voGraca], (Cataguases)
 
-Comunidade 23: 
-389 - {Daniel Mota}, [danishow], (Itamaraty)
-390 - {Emanuell Victor}, [manel_Cataguarino], (Cataguarino)
-
 Comunidade 24: 
-329 - {Santiago Arquete}, [], (Cataguases)
-528 - {Leonardo Paiva}, [treino_bmf_leozim], (Cataguases)
-
-Comunidade 25: 
-508 - {Nielton Silva}, [pelada], (Cataguases)
-511 - {Leandro Queiroz}, [ar_condicionado], (Cataguases)
-
-Comunidade 26: 
 506 - {Matheus Costa}, [oktoplus], (Cataguases)
 507 - {Gustavo Toaiari}, [cefet], (Cataguases)
 
-Comunidade 27: 
+Comunidade 25: 
 478 - {Ivo Telles}, [filho_carla], (Cataguases)
 477 - {Ivan Telles}, [filho_carla], (Cataguases)
 
+Comunidade 26: 
+508 - {Nielton Silva}, [pelada], (Cataguases)
+511 - {Leandro Queiroz}, [ar_condicionado], (Cataguases)
+
+Comunidade 27: 
+389 - {Daniel Mota}, [danishow], (Itamaraty)
+390 - {Emanuell Victor}, [manel_Cataguarino], (Cataguarino)
+
 Comunidade 28: 
-452 - {Thiago Ferreira}, [primo_dandara], (Cataguases)
+490 - {Daniel Sachetto}, [sebrae], (Cataguases)
+491 - {Felipe Sachetto}, [pelada], (Cataguases)
 
 Comunidade 29: 
-312 - {Helia Martins}, [costureira], (Cataguases)
+256 - {Marcus Vinicius Abreu}, [], (Cataguases)
+516 - {Andre Luis de Filippo}, [dede], (Cataguases)
 
 Comunidade 30: 
 453 - {Aparecida }, [mae_karina], (Cataguases)
 
 Comunidade 31: 
-302 - {Raquel Ferreira}, [cci], (Cataguases)
+452 - {Thiago Ferreira}, [primo_dandara], (Cataguases)
 
 Comunidade 32: 
-442 - {Matheus Meneguiti}, [Cefet], (Cataguases)
+241 - {Michael Souza}, [atletica], (Leopoldina)
 
 Comunidade 33: 
-295 - {Lucas Bruno }, [Baiano], (Cataguases)
+195 - {Frederico}, [], (Cataguases)
 
 Comunidade 34: 
 231 - {Gabriel Carvalho}, [futevolei], (Cataguases)
 
 Comunidade 35: 
-489 - {Pedro Henrique }, [filhoAndrea], (Cataguases)
-
-Comunidade 36: 
-241 - {Michael Souza}, [atletica], (Leopoldina)
-
-Comunidade 37: 
-334 - {Lais }, [namorada vitor], (Cataguases)
-
-Comunidade 38: 
-124 - {Gabriel Batista}, [], (Cataguases)
-
-Comunidade 39: 
-283 - {Yan Felipe }, [yanzin], (Cataguases)
-
-Comunidade 40: 
-187 - {Vinicius Dalton}, [], (Cataguases)
-
-Comunidade 41: 
 189 - {Gabriel Freitas}, [gabrielzin sebrae], (Cataguases)
 
-Comunidade 42: 
-310 - {Reinaldo Vieira}, [Carmo], (Cataguases)
+Comunidade 36: 
+302 - {Raquel Ferreira}, [cci], (Cataguases)
 
-Comunidade 43: 
-296 - {Nicholas Souza}, [nickin], (Cataguases)
+Comunidade 37: 
+295 - {Lucas Bruno }, [Baiano], (Cataguases)
 
-Comunidade 44: 
-297 - {Thiago Tinoco}, [Tunico], (Cataguases)
+Comunidade 38: 
+489 - {Pedro Henrique }, [filhoAndrea], (Cataguases)
 
-Comunidade 45: 
-195 - {Frederico}, [], (Cataguases)
-
-Comunidade 46: 
-64 - {Italo }, [designer], (Cataguases)
-
-Comunidade 47: 
-123 - {Gabriel Gail}, [], (Cataguases)
-
-Comunidade 48: 
-292 - {Julio Cesar}, [instrutor auto_escola], (Cataguases)
-
-Comunidade 49: 
-234 - {Davi Vani}, [cefet], (Cataguases)
-
-Comunidade 50: 
-505 - {Arthur Ramalho}, [cefet_tecnico], (Cataguases)
-
-Comunidade 51: 
-522 - {Flavio Alexandre}, [patati], (Cataguases)
-
-Comunidade 52: 
-290 - {Paula Ticiana}, [mae proenca], (Cataguases)
-
-Comunidade 53: 
-126 - {Thiago Lana}, [banana], (Cataguases)
-
-Comunidade 54: 
-269 - {Ruan Cordeiro}, [cataguarino], (Cataguarino)
-
-Comunidade 55: 
-236 - {Emmanuel Martins}, [manel crea], (Cataguases)
-
-Comunidade 56: 
+Comunidade 39: 
 521 - {Marta Lopes}, [mae_sofia], (Cataguases)
 
-Comunidade 57: 
-230 - {Pietro Rodrigues}, [bola8], (Cataguases)
+Comunidade 40: 
+296 - {Nicholas Souza}, [nickin], (Cataguases)
 
-Comunidade 58: 
+Comunidade 41: 
+126 - {Thiago Lana}, [banana], (Cataguases)
+
+Comunidade 42: 
+442 - {Matheus Meneguiti}, [Cefet], (Cataguases)
+
+Comunidade 43: 
+292 - {Julio Cesar}, [instrutor auto_escola], (Cataguases)
+
+Comunidade 44: 
+234 - {Davi Vani}, [cefet], (Cataguases)
+
+Comunidade 45: 
+283 - {Yan Felipe }, [yanzin], (Cataguases)
+
+Comunidade 46: 
+290 - {Paula Ticiana}, [mae proenca], (Cataguases)
+
+Comunidade 47: 
 317 - {Neylor Benfica}, [cefet], (Cataguases)
 
-Comunidade 59: 
-320 - {Ana Julia}, [namorada juan magno], (Cataguases)
+Comunidade 48: 
+123 - {Gabriel Gail}, [], (Cataguases)
 
-Comunidade 60: 
+Comunidade 49: 
+124 - {Gabriel Batista}, [], (Cataguases)
+
+Comunidade 50: 
+236 - {Emmanuel Martins}, [manel crea], (Cataguases)
+
+Comunidade 51: 
+230 - {Pietro Rodrigues}, [bola8], (Cataguases)
+
+Comunidade 52: 
 258 - {Eduardo Bricio}, [crea], (Leopoldina)
 
-Comunidade 61: 
+Comunidade 53: 
+312 - {Helia Martins}, [costureira], (Cataguases)
+
+Comunidade 54: 
 328 - {Jefferson Eduardo}, [loja], (Cataguases)
 
-Comunidade 62: 
+Comunidade 55: 
 332 - {Elias Ferreira}, [sala], (Cataguases)
 
-Comunidade 63: 
+Comunidade 56: 
+334 - {Lais }, [namorada vitor], (Cataguases)
+
+Comunidade 57: 
+505 - {Arthur Ramalho}, [cefet_tecnico], (Cataguases)
+
+Comunidade 58: 
 338 - {Maria Eduarda Barcaro}, [duda iriri], (Iriri)
 
-Comunidade 64: 
-520 - {Eduardo Pereira}, [dudu_treinoCat], (Cataguases)
+Comunidade 59: 
+288 - {Felipe }, [feijao], (Cataguases)
+
+Comunidade 60: 
+64 - {Italo }, [designer], (Cataguases)
+
+Comunidade 61: 
+297 - {Thiago Tinoco}, [Tunico], (Cataguases)
+
+Comunidade 62: 
+187 - {Vinicius Dalton}, [], (Cataguases)
 
