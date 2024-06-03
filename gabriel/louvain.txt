@@ -1,5 +1,6 @@
 Comunidade 1: 
 1 -  {Gabriel Ribeiro Passos},  [],  (Cataguases)
+9 -  {Pedro Henrique Resende Passos},  [],  (Cataguases)
 156 - {Guilherme Madella}, [Madella], (Cataguases)
 184 - {Oromar}, [], (Cataguases)
 280 - {Caio Mariotto}, [], (Cataguases)
@@ -149,7 +150,6 @@ Comunidade 1:
 358 - {Fafá}, [Fafá], (Cataguases)
 
 Comunidade 2: 
-9 -  {Pedro Henrique Resende Passos},  [],  (Cataguases)
 185 - {João Pedro}, [], (Cataguases)
 207 - {Iuri Werneck}, [W10], (Cataguases)
 208 - {Bruno La Gatta}, [Dino], (Cataguases)

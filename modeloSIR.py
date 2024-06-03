@@ -1,7 +1,13 @@
-from operator import itemgetter
-from cdlib import algorithms, viz
-from matplotlib import pyplot as plt
 import networkx as nx
+import ndlib.models.ModelConfig as mc
+import ndlib.models.epidemics as ep
+from ndlib.viz.mpl.DiffusionTrend import DiffusionTrend
+from operator import itemgetter
+import cdlib
+import matplotlib
+from matplotlib import pyplot as plt
+
+matplotlib.use('TkAgg')
 
 RESULTADO_ESPERADO_GABRIEL = [
                                 [2, 4, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 293, 294, 295, 296, 299], 
@@ -92,9 +98,9 @@ def criar_grafo(opcao_arquivo):
     return G
 
 def visualizar_grafo_louvain(G, opcao_arquivo):
-    coms = algorithms.louvain(G)
+    coms = cdlib.algorithms.louvain(G)
     pos = nx.spring_layout(G)
-    viz.plot_network_clusters(G, coms, pos, node_size=50)
+    cdlib.viz.plot_network_clusters(G, coms, pos, node_size=50)
     plt.show()
 
     partitions = dict([])
@@ -112,9 +118,9 @@ def visualizar_grafo_louvain(G, opcao_arquivo):
         escrever_comunidades(comunidade_ego_louvain, './vinicius/pessoas_vinicius.txt', './vinicius/louvain.txt', opcao_arquivo)
 
 def visualizar_grafo_leiden(G, opcao_arquivo):
-    coms = algorithms.leiden(G)
+    coms = cdlib.algorithms.leiden(G)
     pos = nx.spring_layout(G)
-    viz.plot_network_clusters(G, coms, pos, node_size=50)
+    cdlib.viz.plot_network_clusters(G, coms, pos, node_size=50)
     plt.show()
 
     partitions = dict([])
@@ -132,9 +138,9 @@ def visualizar_grafo_leiden(G, opcao_arquivo):
         escrever_comunidades(comunidade_ego_leiden, './vinicius/pessoas_vinicius.txt', './vinicius/leiden.txt', opcao_arquivo)
 
 def visualizar_grafo_rb_pots(G, opcao_arquivo):
-    coms = algorithms.rb_pots(G)
+    coms = cdlib.algorithms.rb_pots(G)
     pos = nx.spring_layout(G)
-    viz.plot_network_clusters(G, coms, pos, node_size=50)
+    cdlib.viz.plot_network_clusters(G, coms, pos, node_size=50)
     plt.show()
 
     partitions = dict([])
@@ -152,9 +158,9 @@ def visualizar_grafo_rb_pots(G, opcao_arquivo):
         escrever_comunidades(comunidade_ego_rb_pots, './vinicius/pessoas_vinicius.txt', './vinicius/rb_pots.txt', opcao_arquivo)
 
 def visualizar_grafo_surprise_communities(G, opcao_arquivo):
-    coms = algorithms.surprise_communities(G)
+    coms = cdlib.algorithms.surprise_communities(G)
     pos = nx.spring_layout(G)
-    viz.plot_network_clusters(G, coms, pos, node_size=50)
+    cdlib.viz.plot_network_clusters(G, coms, pos, node_size=50)
     plt.show()
 
     partitions = dict([])
@@ -172,9 +178,9 @@ def visualizar_grafo_surprise_communities(G, opcao_arquivo):
         escrever_comunidades(comunidade_ego_surprise_communities, './vinicius/pessoas_vinicius.txt', './vinicius/surprise_communities.txt', opcao_arquivo)
 
 def visualizar_grafo_threshold_clustering(G, opcao_arquivo):
-    coms = algorithms.threshold_clustering(G)
+    coms = cdlib.algorithms.threshold_clustering(G)
     pos = nx.spring_layout(G)
-    viz.plot_network_clusters(G, coms, pos, node_size=50)
+    cdlib.viz.plot_network_clusters(G, coms, pos, node_size=50)
     plt.show()
 
     partitions = dict([])
@@ -190,26 +196,6 @@ def visualizar_grafo_threshold_clustering(G, opcao_arquivo):
     elif opcao_arquivo == '2':
         similaridade_comunidades(RESULTADO_ESPERADO_VINICIUS, comunidade_ego_threshold_clustering)
         escrever_comunidades(comunidade_ego_threshold_clustering, './vinicius/pessoas_vinicius.txt', './vinicius/threshold_clustering.txt', opcao_arquivo)
-
-def visualizar_grafo_ego_networks(G, opcao_arquivo):
-    coms = algorithms.ego_networks(G)
-    pos = nx.spring_layout(G)
-    viz.plot_network_clusters(G, coms, pos, node_size=50)
-    plt.show()
-
-    partitions = dict([])
-    for cid, community in enumerate(coms.communities):
-        for node in community:
-            partitions[node] = cid
-            
-    comunidade_ego_networks = criar_lista_de_listas(partitions)
-
-    if opcao_arquivo == '1':
-        # similaridade_comunidades(RESULTADO_ESPERADO_GABRIEL, comunidade_ego_networks)
-        escrever_comunidades(comunidade_ego_networks, './gabriel/pessoas.txt', './gabriel/ego_networks.txt', opcao_arquivo)
-    elif opcao_arquivo == '2':
-        # similaridade_comunidades(RESULTADO_ESPERADO_VINICIUS, comunidade_ego_networks)
-        escrever_comunidades(comunidade_ego_networks, './vinicius/pessoas_vinicius.txt', './vinicius/ego_networks.txt', opcao_arquivo)
 
 def visualizar_grafo(G):
     # find node with largest degree
@@ -231,10 +217,21 @@ def visualizar_grafo(G):
 if __name__ == '__main__':
     opcao_arquivo = input("Digite 1 para visualizar o grafo de Gabriel ou 2 para visualizar o grafo de Vinicius: \n")
     grafo = criar_grafo(opcao_arquivo)
-    visualizar_grafo(grafo)
-    # visualizar_grafo_louvain(grafo, opcao_arquivo)
-    # visualizar_grafo_leiden(grafo, opcao_arquivo)
-    # visualizar_grafo_rb_pots(grafo, opcao_arquivo)
-    # visualizar_grafo_surprise_communities(grafo, opcao_arquivo)
-    # visualizar_grafo_threshold_clustering(grafo, opcao_arquivo)
-    # visualizar_grafo_ego_networks(grafo, opcao_arquivo)
+
+    # Model selection
+    model = ep.SIRModel(grafo)
+
+    # Model Configuration
+    cfg = mc.Configuration()
+    cfg.add_model_parameter('beta', 0.001)
+    cfg.add_model_parameter('gamma', (0.01))
+    cfg.add_model_parameter("fraction_infected", 0.005)
+    model.set_initial_status(cfg)
+
+    # Simulation execution
+    iterations = model.iteration_bunch(200)
+    trends = model.build_trends(iterations)
+
+    # Visualization
+    grafico = DiffusionTrend(model, trends)
+    grafico.plot("diffusion-valores.pdf")
