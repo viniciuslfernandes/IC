@@ -223,8 +223,8 @@ if __name__ == '__main__':
 
     # Model Configuration
     cfg = mc.Configuration()
-    cfg.add_model_parameter('beta', 0.001)
-    cfg.add_model_parameter('gamma', (0.01))
+    cfg.add_model_parameter('beta',  0.34)
+    cfg.add_model_parameter('gamma', 0.182 )
     cfg.add_model_parameter("fraction_infected", 0.005)
     model.set_initial_status(cfg)
 
@@ -234,4 +234,4 @@ if __name__ == '__main__':
 
     # Visualization
     grafico = DiffusionTrend(model, trends)
-    grafico.plot("diffusion-valores.pdf")
+    grafico.plot("diffusion-valores_Vinicius-7-2.pdf")
