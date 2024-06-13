@@ -1,12 +1,10 @@
-import networkx as nx
-import ndlib.models.ModelConfig as mc
-import ndlib.models.epidemics as ep
-from ndlib.viz.mpl.DiffusionTrend import DiffusionTrend
+from matplotlib import pyplot as plt
 from operator import itemgetter
 import cdlib
 import matplotlib
-from matplotlib import pyplot as plt
-
+import ndlib.models.ModelConfig as mc
+import ndlib.models.epidemics as ep
+import networkx as nx
 matplotlib.use('TkAgg')
 
 RESULTADO_ESPERADO_GABRIEL = [
@@ -112,10 +110,10 @@ def visualizar_grafo_louvain(G, opcao_arquivo):
     
     if opcao_arquivo == '1':
         similaridade_comunidades(RESULTADO_ESPERADO_GABRIEL, comunidade_ego_louvain)
-        escrever_comunidades(comunidade_ego_louvain, './gabriel/pessoas.txt', './gabriel/louvain.txt', opcao_arquivo)
+        escrever_comunidades(comunidade_ego_louvain, './gabriel/pessoas.txt', './gabriel/comunidades/louvain.txt', opcao_arquivo)
     elif opcao_arquivo == '2':
         similaridade_comunidades(RESULTADO_ESPERADO_VINICIUS, comunidade_ego_louvain)
-        escrever_comunidades(comunidade_ego_louvain, './vinicius/pessoas_vinicius.txt', './vinicius/louvain.txt', opcao_arquivo)
+        escrever_comunidades(comunidade_ego_louvain, './vinicius/pessoas_vinicius.txt', './vinicius/comunidades/louvain.txt', opcao_arquivo)
 
 def visualizar_grafo_leiden(G, opcao_arquivo):
     coms = cdlib.algorithms.leiden(G)
@@ -132,10 +130,10 @@ def visualizar_grafo_leiden(G, opcao_arquivo):
 
     if opcao_arquivo == '1':
         similaridade_comunidades(RESULTADO_ESPERADO_GABRIEL, comunidade_ego_leiden)
-        escrever_comunidades(comunidade_ego_leiden, './gabriel/pessoas.txt', './gabriel/leiden.txt', opcao_arquivo)
+        escrever_comunidades(comunidade_ego_leiden, './gabriel/pessoas.txt', './gabriel/comunidades/leiden.txt', opcao_arquivo)
     elif opcao_arquivo == '2':
         similaridade_comunidades(RESULTADO_ESPERADO_VINICIUS, comunidade_ego_leiden)
-        escrever_comunidades(comunidade_ego_leiden, './vinicius/pessoas_vinicius.txt', './vinicius/leiden.txt', opcao_arquivo)
+        escrever_comunidades(comunidade_ego_leiden, './vinicius/pessoas_vinicius.txt', './vinicius/comunidades/leiden.txt', opcao_arquivo)
 
 def visualizar_grafo_rb_pots(G, opcao_arquivo):
     coms = cdlib.algorithms.rb_pots(G)
@@ -152,10 +150,10 @@ def visualizar_grafo_rb_pots(G, opcao_arquivo):
 
     if opcao_arquivo == '1':
         similaridade_comunidades(RESULTADO_ESPERADO_GABRIEL, comunidade_ego_rb_pots)
-        escrever_comunidades(comunidade_ego_rb_pots, './gabriel/pessoas.txt', './gabriel/rb_pots.txt', opcao_arquivo)
+        escrever_comunidades(comunidade_ego_rb_pots, './gabriel/pessoas.txt', './gabriel/comunidades/rb_pots.txt', opcao_arquivo)
     elif opcao_arquivo == '2':
         similaridade_comunidades(RESULTADO_ESPERADO_VINICIUS, comunidade_ego_rb_pots)
-        escrever_comunidades(comunidade_ego_rb_pots, './vinicius/pessoas_vinicius.txt', './vinicius/rb_pots.txt', opcao_arquivo)
+        escrever_comunidades(comunidade_ego_rb_pots, './vinicius/pessoas_vinicius.txt', './vinicius/comunidades/rb_pots.txt', opcao_arquivo)
 
 def visualizar_grafo_surprise_communities(G, opcao_arquivo):
     coms = cdlib.algorithms.surprise_communities(G)
@@ -172,10 +170,10 @@ def visualizar_grafo_surprise_communities(G, opcao_arquivo):
 
     if opcao_arquivo == '1':
         similaridade_comunidades(RESULTADO_ESPERADO_GABRIEL, comunidade_ego_surprise_communities)
-        escrever_comunidades(comunidade_ego_surprise_communities, './gabriel/pessoas.txt', './gabriel/surprise_communities.txt', opcao_arquivo)
+        escrever_comunidades(comunidade_ego_surprise_communities, './gabriel/pessoas.txt', './gabriel/comunidades/surprise_communities.txt', opcao_arquivo)
     elif opcao_arquivo == '2':
         similaridade_comunidades(RESULTADO_ESPERADO_VINICIUS, comunidade_ego_surprise_communities)
-        escrever_comunidades(comunidade_ego_surprise_communities, './vinicius/pessoas_vinicius.txt', './vinicius/surprise_communities.txt', opcao_arquivo)
+        escrever_comunidades(comunidade_ego_surprise_communities, './vinicius/pessoas_vinicius.txt', './vinicius/comunidades/surprise_communities.txt', opcao_arquivo)
 
 def visualizar_grafo_threshold_clustering(G, opcao_arquivo):
     coms = cdlib.algorithms.threshold_clustering(G)
@@ -192,10 +190,10 @@ def visualizar_grafo_threshold_clustering(G, opcao_arquivo):
 
     if opcao_arquivo == '1':
         similaridade_comunidades(RESULTADO_ESPERADO_GABRIEL, comunidade_ego_threshold_clustering)
-        escrever_comunidades(comunidade_ego_threshold_clustering, './gabriel/pessoas.txt', './gabriel/threshold_clustering.txt', opcao_arquivo)
+        escrever_comunidades(comunidade_ego_threshold_clustering, './gabriel/pessoas.txt', './gabriel/comunidades/threshold_clustering.txt', opcao_arquivo)
     elif opcao_arquivo == '2':
         similaridade_comunidades(RESULTADO_ESPERADO_VINICIUS, comunidade_ego_threshold_clustering)
-        escrever_comunidades(comunidade_ego_threshold_clustering, './vinicius/pessoas_vinicius.txt', './vinicius/threshold_clustering.txt', opcao_arquivo)
+        escrever_comunidades(comunidade_ego_threshold_clustering, './vinicius/pessoas_vinicius.txt', './vinicius/comunidades/threshold_clustering.txt', opcao_arquivo)
 
 def visualizar_grafo(G):
     # find node with largest degree
@@ -218,20 +216,38 @@ if __name__ == '__main__':
     opcao_arquivo = input("Digite 1 para visualizar o grafo de Gabriel ou 2 para visualizar o grafo de Vinicius: \n")
     grafo = criar_grafo(opcao_arquivo)
 
-    # Model selection
-    model = ep.SIRModel(grafo)
+    # (beta, gamma)
+    valores = [(79/280, 1/14), (0.052, 0.06)]
 
-    # Model Configuration
-    cfg = mc.Configuration()
-    cfg.add_model_parameter('beta',  0.34)
-    cfg.add_model_parameter('gamma', 0.182 )
-    cfg.add_model_parameter("fraction_infected", 0.005)
-    model.set_initial_status(cfg)
+    for i in range(len(valores)):
+        # Model Selection
+        model = ep.SIRModel(grafo)
 
-    # Simulation execution
-    iterations = model.iteration_bunch(200)
-    trends = model.build_trends(iterations)
+        # Model Configuration
+        cfg = mc.Configuration()
+        cfg.add_model_parameter("beta", valores[i][0])
+        cfg.add_model_parameter("gamma", valores[i][1])
+        cfg.add_model_parameter("fraction_infected", 0.1)
+        model.set_initial_status(cfg)
 
-    # Visualization
-    grafico = DiffusionTrend(model, trends)
-    grafico.plot("diffusion-valores_Vinicius-7-2.pdf")
+        # Simulation execution
+        iterations = model.iteration_bunch(100)
+
+        suscetiveis = []
+        infectados = []
+        recuperados = []
+
+        # status: 0 - suscetível, 1 - infectado, 2 - recuperado
+        for j in iterations:
+            suscetiveis.append(j['node_count'][0])
+            infectados.append(j['node_count'][1])
+            recuperados.append(j['node_count'][2])
+
+        plt.plot(suscetiveis, label='Suscetíveis')
+        plt.plot(infectados, label='Infectados')
+        plt.plot(recuperados, label='Recuperados')
+        plt.xlabel('Iterações')
+        plt.ylabel('Quantidade de pessoas')
+        plt.legend(loc='best')
+        plt.title(f'beta: {valores[i][0]}, gamma: {valores[i][1]}')
+        plt.show()
