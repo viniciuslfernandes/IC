@@ -217,7 +217,7 @@ if __name__ == '__main__':
     grafo = criar_grafo(opcao_arquivo)
 
     # (beta, gamma)
-    valores = [(79/280, 1/14), (0.052, 0.06)]
+    valores = [(0.00000000035266, 1/15), (0.1875, 0.0508), (0.3077, 1/5.2), (0.17, 0.7142), (0.216, 0.102), (0.126, 0.083), (0.34, 0.119), (0.34, 0.182)]
 
     for i in range(len(valores)):
         # Model Selection
