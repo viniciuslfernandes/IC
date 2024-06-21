@@ -1,0 +1,22 @@
+# Model Selection
+model = ep.SIRModel(grafo)
+# Model Configuration
+cfg = mc.Configuration()
+cfg.add_model_parameter("beta", valores[i][0])
+cfg.add_model_parameter("gamma", valores[i][1])
+# cfg.add_model_parameter("fraction_infected", 0.1)
+cfg.add_model_initial_configuration("Infected", [1])
+model.set_initial_status(cfg)
+
+--------------------------------------------------------
+
+# Compartment definition
+c1 = cpm.NodeStochastic(valores[i][0], triggering_status="Infected")
+c2 = cpm.NodeStochastic(valores[i][1])
+# Rule definition
+model.add_rule("Susceptible", "Infected", c1)
+model.add_rule("Infected", "Removed", c2)
+# Model initial status configuration
+config = mc.Configuration()
+# config.add_model_parameter('fraction_infected', 0.01)
+config.add_model_initial_configuration("Infected", [1])
