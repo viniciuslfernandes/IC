@@ -7,6 +7,7 @@ import ndlib.models.compartments as cpm
 import ndlib.models.epidemics as ep
 import ndlib.models.ModelConfig as mc
 import networkx as nx
+import random
 matplotlib.use('TkAgg')
 
 RESULTADO_ESPERADO_GABRIEL = [
@@ -215,41 +216,38 @@ def visualizar_grafo(G):
     plt.show()
 
 if __name__ == '__main__':
-    opcao_arquivo = input("Digite 1 para visualizar o grafo de Gabriel ou 2 para visualizar o grafo de Vinicius: \n")
-    grafo = criar_grafo(opcao_arquivo)
-    # grafo = nx.erdos_renyi_graph(1000, 1)
+    # opcao_arquivo = input("Digite 1 para visualizar o grafo de Gabriel ou 2 para visualizar o grafo de Vinicius: \n")
+    # grafo = criar_grafo(opcao_arquivo)
+
+    grafo = nx.Graph()
+    range_grafo = range(0, 10000)
+    grafo.add_nodes_from(range_grafo)
+    for i in range_grafo:
+        for j in range(i, len(range_grafo)):
+            if(random.random()>=0.9):
+                grafo.add_weighted_edges_from([(i, j, 1)])
 
     # (beta, gamma)
-    valores = [(0.00000000035266, 1/15), (0.1875, 0.0508), (0.3077, 1/5.2), (0.17, 0.7142), (0.216, 0.102), (0.126, 0.083), (0.34, 0.119), (0.34, 0.182)]
-    # valores = [(0.0026, 0.0012), (0.35, 0.567), (0.5/5, 0.07), (0.5/50, 0.07), (0.5/100, 0.07), (0.202, 1/14)]
+    # valores = [(0.00000000035266, 1/15), (0.1875, 0.0508), (0.3077, 1/5.2), (0.17, 0.7142), (0.216, 0.102), (0.126, 0.083), (0.34, 0.119), (0.34, 0.182)]
+    valores = [(0.0026, 0.0012), (0.35/7, 0.567/7), (0.5/5, 0.07), (0.5/50, 0.07), (0.5/100, 0.07), (0.202, 1/14)]
     # valores = [(0.02, 0.01), (0.35, 0.567)]
 
     for i in range(len(valores)):
-        # Composite Model instantiation
-        model = gc.CompositeModel(grafo)
+        # Model Selection
+        model = ep.SIRModel(grafo)
 
-        # Model statuses
-        model.add_status("Susceptible")
-        model.add_status("Infected")
-        model.add_status("Removed")
-
-        # Compartment definition
-        c1 = cpm.EdgeStochastic(triggering_status="Infected")
-        c2 = cpm.EdgeStochastic(valores[i][1], triggering_status="Removed")
-
-        # Rule definition
-        model.add_rule("Susceptible", "Infected", c1)
-        model.add_rule("Infected", "Removed", c2)
-
-        # Model initial status configuration
+        # Model Configuration
         config = mc.Configuration()
+        config.add_model_parameter("beta", valores[i][0])
+        config.add_model_parameter("gamma", valores[i][1])
+        # config.add_model_parameter("fraction_infected", 0.01)
+        config.add_model_initial_configuration("Infected", [1])
 
-        # Threshold specs
-        for e in grafo.edges():
-            config.add_edge_configuration("threshold", e, valores[i][0] / grafo.get_edge_data(e[0], e[1])['weight'])
+        for (u, v, data) in grafo.edges(data=True):
+            weight = data['weight']
+            config.add_edge_configuration((u, v), 'beta', weight * valores[i][0])
 
-        config = mc.Configuration()
-        config.add_model_parameter('fraction_infected', 0.1)
+        model.set_initial_status(config)
 
         # Simulation execution
         model.set_initial_status(config)
