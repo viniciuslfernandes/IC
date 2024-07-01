@@ -229,46 +229,69 @@ if __name__ == '__main__':
 
     # (beta, gamma)
     # valores = [(0.00000000035266, 1/15), (0.1875, 0.0508), (0.3077, 1/5.2), (0.17, 0.7142), (0.216, 0.102), (0.126, 0.083), (0.34, 0.119), (0.34, 0.182)]
-    valores = [(0.0026, 0.0012), (0.35/7, 0.567/7), (0.5/5, 0.07), (0.5/50, 0.07), (0.5/100, 0.07), (0.202, 1/14)]
+    # valores = [(0.0026, 0.0012), (0.35/7, 0.567/7), (0.5/5, 0.07), (0.5/50, 0.07), (0.5/100, 0.07), (0.202, 1/14)]
     # valores = [(0.02, 0.01), (0.35, 0.567)]
+    valores = [(0.35/7, 0.567/7)]
+    
+    familia = []
+    amigo = []
+    conhecido = []
 
+    for (v1, v2 ) in grafo.edges(1):
+        peso = grafo.get_edge_data(v1, v2)['weight']
+        # print(f'aresta: {v1, v2} | peso: {peso}')
+        if peso == 1:
+            familia.append(v2)
+        elif peso == 4:
+            amigo.append(v2)
+        elif peso == 13:
+            conhecido.append(v2)
+
+    
     for i in range(len(valores)):
-        # Model Selection
-        model = ep.SIRModel(grafo)
+        # for k in familia:
+        # for k in amigo:
+        for k in conhecido:
+            # Model Selection
+            model = ep.SIRModel(grafo)
 
-        # Model Configuration
-        config = mc.Configuration()
-        config.add_model_parameter("beta", valores[i][0])
-        config.add_model_parameter("gamma", valores[i][1])
-        # config.add_model_parameter("fraction_infected", 0.01)
-        config.add_model_initial_configuration("Infected", [1])
+            # Model Configuration
+            config = mc.Configuration()
+            config.add_model_parameter("beta", valores[i][0])
+            config.add_model_parameter("gamma", valores[i][1])
+            # config.add_model_parameter("fraction_infected", 0.01)
+            config.add_model_initial_configuration("Infected", [k])
 
-        for (u, v, data) in grafo.edges(data=True):
-            weight = data['weight']
-            config.add_edge_configuration((u, v), 'beta', valores[i][0] * (14 - weight ) / 13)
+            for (u, v, data) in grafo.edges(data=True):
+                weight = data['weight']
+                config.add_edge_configuration((u, v), 'threshold', valores[i][0] * (14 - weight ) / 13)
 
-        model.set_initial_status(config)
+            model.set_initial_status(config)
 
-        # Simulation execution
-        model.set_initial_status(config)
-        num_iteracoes = 100
-        iterations = model.iteration_bunch(num_iteracoes)
+            # Simulation execution
+            model.set_initial_status(config)
+            num_iteracoes = 100
+            iterations = model.iteration_bunch(num_iteracoes)
 
-        suscetiveis = []
-        infectados = []
-        recuperados = []
+            suscetiveis = []
+            infectados = []
+            recuperados = []
 
-        # status: 0 - suscetível, 1 - infectado, 2 - recuperado
-        for j in iterations:
-            suscetiveis.append(j['node_count'][0])
-            infectados.append(j['node_count'][1])
-            recuperados.append(j['node_count'][2])
-
-        plt.plot(suscetiveis, label='Suscetíveis')
-        plt.plot(infectados, label='Infectados')
-        plt.plot(recuperados, label='Recuperados')
-        plt.xlabel('Iterações')
-        plt.ylabel('Nós')
-        plt.legend(loc='best')
-        plt.title(f'beta: {valores[i][0]}, gamma: {valores[i][1]}')
-        plt.show()
+            # status: 0 - suscetível, 1 - infectado, 2 - recuperado
+            for j in iterations:
+                suscetiveis.append(j['node_count'][0])
+                infectados.append(j['node_count'][1])
+                recuperados.append(j['node_count'][2])
+                if 1 in j['status']:
+                    if j['status'][1] == 1:
+                        break
+                
+            
+            plt.plot(suscetiveis, label='Suscetíveis')
+            plt.plot(infectados, label='Infectados')
+            plt.plot(recuperados, label='Recuperados')
+            plt.xlabel('Iterações')
+            plt.ylabel('Nós')
+            plt.legend(loc='best')
+            plt.title(f'beta: {valores[i][0]}, gamma: {valores[i][1]}, nó_inicial: {k}')
+            plt.show()
