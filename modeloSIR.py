@@ -216,16 +216,16 @@ def visualizar_grafo(G):
     plt.show()
 
 if __name__ == '__main__':
-    # opcao_arquivo = input("Digite 1 para visualizar o grafo de Gabriel ou 2 para visualizar o grafo de Vinicius: \n")
-    # grafo = criar_grafo(opcao_arquivo)
+    opcao_arquivo = input("Digite 1 para visualizar o grafo de Gabriel ou 2 para visualizar o grafo de Vinicius: \n")
+    grafo = criar_grafo(opcao_arquivo)
 
-    grafo = nx.Graph()
-    range_grafo = range(0, 10000)
-    grafo.add_nodes_from(range_grafo)
-    for i in range_grafo:
-        for j in range(i, len(range_grafo)):
-            if(random.random()>=0.9):
-                grafo.add_weighted_edges_from([(i, j, 1)])
+    # grafo = nx.Graph()
+    # range_grafo = range(0, 1000)
+    # grafo.add_nodes_from(range_grafo)
+    # for i in range_grafo:
+    #     for j in range(i, len(range_grafo)):
+    #         if(random.random() >= 0.9):
+    #             grafo.add_weighted_edges_from([(i, j, 1)])
 
     # (beta, gamma)
     # valores = [(0.00000000035266, 1/15), (0.1875, 0.0508), (0.3077, 1/5.2), (0.17, 0.7142), (0.216, 0.102), (0.126, 0.083), (0.34, 0.119), (0.34, 0.182)]
@@ -245,7 +245,7 @@ if __name__ == '__main__':
 
         for (u, v, data) in grafo.edges(data=True):
             weight = data['weight']
-            config.add_edge_configuration((u, v), 'beta', weight * valores[i][0])
+            config.add_edge_configuration((u, v), 'beta', valores[i][0] * (14 - weight ) / 13)
 
         model.set_initial_status(config)
 
