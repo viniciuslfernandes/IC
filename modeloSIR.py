@@ -230,7 +230,6 @@ if __name__ == '__main__':
     # (beta, gamma)
     # valores = [(0.00000000035266, 1/15), (0.1875, 0.0508), (0.3077, 1/5.2), (0.17, 0.7142), (0.216, 0.102), (0.126, 0.083), (0.34, 0.119), (0.34, 0.182)]
     # valores = [(0.0026, 0.0012), (0.35/7, 0.567/7), (0.5/5, 0.07), (0.5/50, 0.07), (0.5/100, 0.07), (0.202, 1/14)]
-    # valores = [(0.02, 0.01), (0.35, 0.567)]
     valores = [(0.35/7, 0.567/7)]
     
     familia = []
@@ -249,9 +248,10 @@ if __name__ == '__main__':
 
     
     for i in range(len(valores)):
+        iteracao_infectado = []
         # for k in familia:
-        # for k in amigo:
-        for k in conhecido:
+        for k in amigo:
+        # for k in conhecido:
             # Model Selection
             model = ep.SIRModel(grafo)
 
@@ -279,19 +279,24 @@ if __name__ == '__main__':
 
             # status: 0 - suscetível, 1 - infectado, 2 - recuperado
             for j in iterations:
-                suscetiveis.append(j['node_count'][0])
-                infectados.append(j['node_count'][1])
-                recuperados.append(j['node_count'][2])
+                # suscetiveis.append(j['node_count'][0])
+                # infectados.append(j['node_count'][1])
+                # recuperados.append(j['node_count'][2])
                 if 1 in j['status']:
                     if j['status'][1] == 1:
+                        iteracao_infectado.append(j['iteration'])
+                        print(f'iterção que o nó ego foi infectado: {j['iteration']}')
                         break
-                
             
-            plt.plot(suscetiveis, label='Suscetíveis')
-            plt.plot(infectados, label='Infectados')
-            plt.plot(recuperados, label='Recuperados')
-            plt.xlabel('Iterações')
-            plt.ylabel('Nós')
-            plt.legend(loc='best')
-            plt.title(f'beta: {valores[i][0]}, gamma: {valores[i][1]}, nó_inicial: {k}')
-            plt.show()
+            # plt.plot(suscetiveis, label='Suscetíveis')
+            # plt.plot(infectados, label='Infectados')
+            # plt.plot(recuperados, label='Recuperados')
+            # plt.xlabel('Iterações')
+            # plt.ylabel('Nós')
+            # plt.legend(loc='best')
+            # plt.title(f'beta: {valores[i][0]}, gamma: {valores[i][1]}, nó_inicial: {k}')
+            # plt.show()
+        
+        print(f'soma: {sum(iteracao_infectado)} | len: {len(iteracao_infectado)}')
+        media = sum(iteracao_infectado) / len(iteracao_infectado)
+        print(media)
