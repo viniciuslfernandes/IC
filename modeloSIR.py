@@ -233,7 +233,17 @@ if __name__ == '__main__':
     valores = [(0.35/7, 0.567/7)]
     
     familia = []
+    melhor_amigo = []
+    namorado = []
     amigo = []
+    parente = []
+    parca = []
+    professor = []
+    aluno = []
+    colega = []
+    trabalho = []
+    consanguineo = []
+    ficante = []
     conhecido = []
 
     for (v1, v2 ) in grafo.edges(1):
@@ -241,17 +251,58 @@ if __name__ == '__main__':
         # print(f'aresta: {v1, v2} | peso: {peso}')
         if peso == 1:
             familia.append(v2)
+        elif peso == 2:
+            melhor_amigo.append(v2)
+        elif peso == 3:
+            namorado.append(v2)
         elif peso == 4:
             amigo.append(v2)
+        elif peso == 5:
+            parente.append(v2)
+        elif peso == 6:
+            parca.append(v2)
+        elif peso == 7:
+            aluno.append(v2)
+        elif peso == 8:
+            professor.append(v2)
+        elif peso == 9:
+            colega.append(v2)
+        elif peso == 10:
+            trabalho.append(v2)
+        elif peso == 11:
+            consanguineo.append(v2)
+        elif peso == 12:
+            ficante.append(v2)
         elif peso == 13:
             conhecido.append(v2)
 
+    classes_iniciais = [familia, melhor_amigo, namorado, amigo, parente, parca, professor, aluno, colega, trabalho, consanguineo, ficante, conhecido]
     
     for i in range(len(valores)):
         iteracao_infectado = []
+        classes_infectado = [[], [], [], [], [], [], [], [], [], [], [], [], []]
+        porcentagem_infectados= [[], [], [], [], [], [], [], [], [], [], [], [], []]
+        classes_tamanho = []
+        
+        for a in classes_iniciais:
+            classes_tamanho.append(len(a))
+        
         # for k in familia:
-        for k in amigo:
-        # for k in conhecido:
+        # for k in melhor_amigo:
+        # for k in namorado:
+        # for k in amigo:
+        # for k in parente:
+        # for k in parca:
+        # for k in professor:
+        # for k in aluno:
+        # for k in colega:
+        # for k in trabalho:
+        # for k in consanguineo:
+        # for k in ficante:
+        for k in conhecido:
+            
+            classes = [lista[:] for lista in classes_iniciais]
+            
             # Model Selection
             model = ep.SIRModel(grafo)
 
@@ -264,7 +315,7 @@ if __name__ == '__main__':
 
             for (u, v, data) in grafo.edges(data=True):
                 weight = data['weight']
-                config.add_edge_configuration((u, v), 'threshold', valores[i][0] * (14 - weight ) / 13)
+                config.add_edge_configuration((u, v), 'threshold', 2 * valores[i][0] * (14 - weight ) / 13)
 
             model.set_initial_status(config)
 
@@ -276,17 +327,92 @@ if __name__ == '__main__':
             suscetiveis = []
             infectados = []
             recuperados = []
-
+            
+            for a in classes:
+                if k in a:
+                    a.remove(k)
+            
             # status: 0 - suscetível, 1 - infectado, 2 - recuperado
             for j in iterations:
                 # suscetiveis.append(j['node_count'][0])
                 # infectados.append(j['node_count'][1])
                 # recuperados.append(j['node_count'][2])
-                if 1 in j['status']:
-                    if j['status'][1] == 1:
-                        iteracao_infectado.append(j['iteration'])
-                        print(f'iterção que o nó ego foi infectado: {j['iteration']}')
-                        break
+                for x in j['status']:
+                    if j['status'][x]==1:
+                        if x in classes[0]:
+                            classes[0].remove(x)
+                            # if(len(classes[0])==0):
+                            #     classes_infectado[0].append(j['iteration'])
+                        
+                        elif x in classes[1]:
+                            classes[1].remove(x)
+                            # if(len(classes[1])==0):
+                            #     classes_infectado[1].append(j['iteration'])
+                                
+                        elif x in classes[2]:
+                            classes[2].remove(x)
+                            # if(len(classes[2])==0):
+                            #     classes_infectado[2].append(j['iteration'])
+                                
+                        elif x in classes[3]:
+                            classes[3].remove(x)
+                            # if(len(classes[3])==0):
+                            #     classes_infectado[3].append(j['iteration'])
+                                
+                        elif x in classes[4]:
+                            classes[4].remove(x)
+                            # if(len(classes[4])==0):
+                            #     classes_infectado[4].append(j['iteration'])
+                                
+                        elif x in classes[5]:
+                            classes[5].remove(x)
+                            # if(len(classes[5])==0):
+                            #     classes_infectado[5].append(j['iteration'])
+                                
+                        elif x in classes[6]:
+                            classes[6].remove(x)
+                            # if(len(classes[6])==0):
+                            #     classes_infectado[6].append(j['iteration'])
+                                
+                        elif x in classes[7]:
+                            classes[7].remove(x)
+                            # if(len(classes[7])==0):
+                            #     classes_infectado[7].append(j['iteration'])
+                                
+                        elif x in classes[8]:
+                            classes[8].remove(x)
+                            # if(len(classes[8])==0):
+                            #     classes_infectado[8].append(j['iteration'])
+                                
+                        elif x in classes[9]:
+                            classes[9].remove(x)
+                            # if(len(classes[9])==0):
+                            #     classes_infectado[9].append(j['iteration'])
+                                
+                        elif x in classes[10]:
+                            classes[10].remove(x)
+                            # if(len(classes[10])==0):
+                            #     classes_infectado[10].append(j['iteration'])
+                                
+                        elif x in classes[11]:
+                            classes[11].remove(x)
+                            # if(len(classes[11])==0):
+                            #     classes_infectado[11].append(j['iteration'])
+                                
+                        elif x in classes[12]:
+                            classes[12].remove(x)
+                            # if(len(classes[12])==0):
+                            #     classes_infectado[12].append(j['iteration'])
+            # 
+            
+            pos = 0
+            for a in classes:
+                if(classes_tamanho[pos]!=0):
+                    porcentagem = ((classes_tamanho[pos]- len(a))*100)/classes_tamanho[pos]
+                    porcentagem_infectados[pos].append(porcentagem)
+                pos+=1
+            
+            
             
             # plt.plot(suscetiveis, label='Suscetíveis')
             # plt.plot(infectados, label='Infectados')
@@ -297,6 +423,44 @@ if __name__ == '__main__':
             # plt.title(f'beta: {valores[i][0]}, gamma: {valores[i][1]}, nó_inicial: {k}')
             # plt.show()
         
-        print(f'soma: {sum(iteracao_infectado)} | len: {len(iteracao_infectado)}')
-        media = sum(iteracao_infectado) / len(iteracao_infectado)
-        print(media)
+        # print(f'soma: {sum(iteracao_infectado)} | len: {len(iteracao_infectado)}')
+        # media = sum(iteracao_infectado) / len(iteracao_infectado)
+        # print(media)
+        
+        for a in porcentagem_infectados:
+            if(len(a)==0):
+                a.append(0)
+        
+        # print(porcentagem_infectados)
+        print(f'porcentagem familia: {sum(porcentagem_infectados[0])/len(porcentagem_infectados[0])}')
+        print(f'porcentagem melhor amigo: {sum(porcentagem_infectados[1])/len(porcentagem_infectados[1])}')
+        print(f'porcentagem namorada: {sum(porcentagem_infectados[2])/len(porcentagem_infectados[2])}')
+        print(f'porcentagem amigo: {sum(porcentagem_infectados[3])/len(porcentagem_infectados[3])}')
+        print(f'porcentagem parente: {sum(porcentagem_infectados[4])/len(porcentagem_infectados[4])}')
+        print(f'porcentagem parca: {sum(porcentagem_infectados[5])/len(porcentagem_infectados[5])}')
+        print(f'porcentagem professor: {sum(porcentagem_infectados[6])/len(porcentagem_infectados[6])}')
+        print(f'porcentagem aluno: {sum(porcentagem_infectados[7])/len(porcentagem_infectados[7])}')
+        print(f'porcentagem colega: {sum(porcentagem_infectados[8])/len(porcentagem_infectados[8])}')
+        print(f'porcentagem trabalho: {sum(porcentagem_infectados[9])/len(porcentagem_infectados[9])}')
+        print(f'porcentagem consanguineo: {sum(porcentagem_infectados[10])/len(porcentagem_infectados[10])}')
+        print(f'porcentagem ficante: {sum(porcentagem_infectados[11])/len(porcentagem_infectados[11])}')
+        print(f'porcentagem conhecido: {sum(porcentagem_infectados[12])/len(porcentagem_infectados[12])}')
+        
+        # for a in classes_infectado:
+        #     if(len(a)==0):
+        #         a.append(0)
+        # print(classes_infectado)
+        
+        # print(f"media familia: {sum(classes_infectado[0])/len(classes_infectado[0])}")
+        # print(f"media melhor amigo: {sum(classes_infectado[1])/len(classes_infectado[1])}")
+        # print(f"media namorado: {sum(classes_infectado[2])/len(classes_infectado[2])}")
+        # print(f"media amigo: {sum(classes_infectado[3])/len(classes_infectado[3])}")
+        # print(f"media parente: {sum(classes_infectado[4])/len(classes_infectado[4])}")
+        # print(f"media parca: {sum(classes_infectado[5])/len(classes_infectado[5])}")
+        # print(f"media professor: {sum(classes_infectado[6])/len(classes_infectado[6])}")
+        # print(f"media aluno: {sum(classes_infectado[7])/len(classes_infectado[7])}")
+        # print(f"media colega: {sum(classes_infectado[8])/len(classes_infectado[8])}")
+        # print(f"media trabalho: {sum(classes_infectado[9])/len(classes_infectado[9])}")
+        # print(f"media consanguineo: {sum(classes_infectado[10])/len(classes_infectado[10])}")
+        # print(f"media ficante: {sum(classes_infectado[11])/len(classes_infectado[11])}")
+        # print(f"media conhecido: {sum(classes_infectado[12])/len(classes_infectado[12])}")
