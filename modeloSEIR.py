@@ -247,7 +247,8 @@ if __name__ == '__main__':
     # (beta, gamma)
     # valores = [(0.00000000035266, 1/15), (0.1875, 0.0508), (0.3077, 1/5.2), (0.17, 0.7142), (0.216, 0.102), (0.126, 0.083), (0.34, 0.119), (0.34, 0.182)]
     # valores = [(0.0026, 0.0012), (0.35/7, 0.567/7), (0.5/5, 0.07), (0.5/50, 0.07), (0.5/100, 0.07), (0.202, 1/14)]
-    valores = [(0.35/7, 0.567/7)]
+    # valores = [(0.35/7, 0.567/7)]
+    valores = [(0.370057653, 0.1)]
     
     # ego = [1]
     # familia = []
@@ -297,7 +298,7 @@ if __name__ == '__main__':
     # classes_iniciais = [familia, melhor_amigo, namorado, amigo, parente, parca, professor, aluno, colega, trabalho, consanguineo, ficante, conhecido]
     
     column = ['0', '5', '10', '15', '20', '25', '30', '40', '50', '60', '70', '80', '90', '100', '110', '120', '130', '140', '150', '160', '170', '179']
-    with open('./tabelas/gabriel.csv', mode='w', newline='', encoding='utf-8') as csvfile:
+    with open('./tabelas/teste2.csv', mode='w', newline='', encoding='utf-8') as csvfile:
         columns = csv.DictWriter(csvfile, fieldnames=column)
         columns.writeheader()
     
@@ -310,7 +311,7 @@ if __name__ == '__main__':
             # for a in classes_iniciais:
             #     classes_tamanho.append(len(a))
             
-            for k in range(30):
+            for k in range(1):
             # for k in ego:
             # for k in familia:
             # for k in melhor_amigo:
@@ -346,12 +347,11 @@ if __name__ == '__main__':
                 
                 # if(k>=15):
                 #     no_maior_grau = grau_medio
-                config.add_model_initial_configuration("Infected", [no_maior_grau])
+                config.add_model_initial_configuration("Infected", [1])
 
                 for (u, v, data) in grafo.edges(data=True):
                     weight = data['weight']
                     config.add_edge_configuration((u, v), 'threshold',  valores[i][0] * (14 - weight ) / 13)
-                
                 # Simulation execution
                 model.set_initial_status(config)
                 num_iteracoes =180
