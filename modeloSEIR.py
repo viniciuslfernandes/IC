@@ -85,7 +85,7 @@ def criar_grafo(opcao_arquivo):
     elif opcao_arquivo == '2':
         arquivo = './vinicius/conexoes_vinicius.txt'
     elif opcao_arquivo == '3':
-        arquivo = './generico.txt'
+        arquivo = './generico_seir.txt'
     else:
         print("Opção de arquivo inválida")
         exit()
@@ -222,116 +222,52 @@ def visualizar_grafo(G):
 if __name__ == '__main__':
     opcao_arquivo = input("Digite 1 para visualizar o grafo de Gabriel ou 2 para visualizar o grafo de Vinicius ou 3 para um grafo Generico: \n")
     grafo = criar_grafo(opcao_arquivo)
-
-    # grafo = nx.Graph()
-    # range_grafo = range(0, 1000)
-    # grafo.add_nodes_from(range_grafo)
-    # for i in range_grafo:
-    #     for j in range(i, len(range_grafo)):
-    #         if(random.random() >= 0.9):
-    #             grafo.add_weighted_edges_from([(i, j, 1)])
     
-    graus = dict(grafo.degree())
-    nos_ordenados = sorted(graus, key=graus.get, reverse=True)
-    
-    no_maior_grau = nos_ordenados[0]
-    # print(grafo)
-    # print(graus)
-    print(no_maior_grau)
-    print(grafo.degree(no_maior_grau))
-    no_grau_medio = nos_ordenados[int(((len(nos_ordenados))/2)+1)]
-    print(no_grau_medio)
-    print(grafo.degree(no_grau_medio))
-    print('\n')
-    
-    # (beta, gamma)
-    # valores = [(0.00000000035266, 1/15), (0.1875, 0.0508), (0.3077, 1/5.2), (0.17, 0.7142), (0.216, 0.102), (0.126, 0.083), (0.34, 0.119), (0.34, 0.182)]
-    # valores = [(0.0026, 0.0012), (0.35/7, 0.567/7), (0.5/5, 0.07), (0.5/50, 0.07), (0.5/100, 0.07), (0.202, 1/14)]
     # valores = [(0.35/7, 0.567/7)]
     valores = [(0.370057653, 0.1)]
     
-    # ego = [1]
-    # familia = []
-    # melhor_amigo = []
-    # namorado = []
-    # amigo = []
-    # parente = []
-    # parca = []
-    # professor = []
-    # aluno = []
-    # colega = []
-    # trabalho = []
-    # consanguineo = []
-    # ficante = []
-    # conhecido = []
-
-    # for (v1, v2 ) in grafo.edges(1):
-    #     peso = grafo.get_edge_data(v1, v2)['weight']
-    #     # print(f'aresta: {v1, v2} | peso: {peso}')
-    #     if peso == 1:
-    #         familia.append(v2)
-    #     elif peso == 2:
-    #         melhor_amigo.append(v2)
-    #     elif peso == 3:
-    #         namorado.append(v2)
-    #     elif peso == 4:
-    #         amigo.append(v2)
-    #     elif peso == 5:
-    #         parente.append(v2)
-    #     elif peso == 6:
-    #         parca.append(v2)
-    #     elif peso == 7:
-    #         aluno.append(v2)
-    #     elif peso == 8:
-    #         professor.append(v2)
-    #     elif peso == 9:
-    #         colega.append(v2)
-    #     elif peso == 10:
-    #         trabalho.append(v2)
-    #     elif peso == 11:
-    #         consanguineo.append(v2)
-    #     elif peso == 12:
-    #         ficante.append(v2)
-    #     elif peso == 13:
-    #         conhecido.append(v2)
-
-    # classes_iniciais = [familia, melhor_amigo, namorado, amigo, parente, parca, professor, aluno, colega, trabalho, consanguineo, ficante, conhecido]
+    ego = [1]
+    forte = []
+    ponte = []
+    fraco = []
+    
+    for (v1, v2 ) in grafo.edges(0):
+        peso = grafo.get_edge_data(v1, v2)['weight']
+        # print(f'aresta: {v1, v2} | peso: {peso}')
+        if peso == 1:
+            forte.append(v2)
+        elif peso == 2:
+            ponte.append(v2)
+        elif peso == 3:
+            fraco.append(v2)
+            
+    classes_iniciais = [forte, ponte, fraco]
     
     column = ['0', '5', '10', '15', '20', '25', '30', '40', '50', '60', '70', '80', '90', '100', '110', '120', '130', '140', '150', '160', '170', '179']
-    with open('./tabelas/teste2.csv', mode='w', newline='', encoding='utf-8') as csvfile:
-        columns = csv.DictWriter(csvfile, fieldnames=column)
-        columns.writeheader()
+    # with open('./tabelas_seir/teste.csv', mode='w', newline='', encoding='utf-8') as csvfile:
+    #     columns = csv.DictWriter(csvfile, fieldnames=column)
+    #     columns.writeheader()
     
-        for i in range(len(valores)):
-            # iteracao_infectado = []
-            # classes_infectado = [[], [], [], [], [], [], [], [], [], [], [], [], []]
-            # porcentagem_infectados= [[], [], [], [], [], [], [], [], [], [], [], [], []]
-            # classes_tamanho = []
+    for i in range(len(valores)):
+        classes_tamanho = []
+        
+        for a in classes_iniciais:
+            classes_tamanho.append(len(a))
             
-            # for a in classes_iniciais:
-            #     classes_tamanho.append(len(a))
-            
-            for k in range(1):
+        for c in range(1):
+            iteracao_infectado = []
+            classes_infectado = [[], [], []]         
+            porcentagem_infectados= [[], [], []]
             # for k in ego:
-            # for k in familia:
-            # for k in melhor_amigo:
-            # for k in namorado:
-            # for k in amigo:
-            # for k in parente:
-            # for k in parca:
-            # for k in professor:
-            # for k in aluno:
-            # for k in colega:
-            # for k in trabalho:
-            # for k in consanguineo:
-            # for k in ficante:
-            # for k in conhecido:
+            for k in forte:
+            # for k in ponte:
+            # for k in fraco:
                 
-                print(f"SIMULAÇÃO {k} e No: {no_maior_grau}")
-                # classes = [lista[:] for lista in classes_iniciais]
-                grafo_aux = []
-                for z in range(len(grafo)):
-                    grafo_aux.append(z)
+                print(f"SIMULAÇÃO no: {k} ")
+                classes = [lista[:] for lista in classes_iniciais]
+                # grafo_aux = []
+                # for z in range(len(grafo)):
+                #     grafo_aux.append(z)
                 
                 # Model Selection
                 model = ep.SEIRModel(grafo)
@@ -347,11 +283,11 @@ if __name__ == '__main__':
                 
                 # if(k>=15):
                 #     no_maior_grau = grau_medio
-                config.add_model_initial_configuration("Infected", [1])
+                config.add_model_initial_configuration("Infected", [k])
 
                 for (u, v, data) in grafo.edges(data=True):
                     weight = data['weight']
-                    config.add_edge_configuration((u, v), 'threshold',  valores[i][0] * (14 - weight ) / 13)
+                    config.add_edge_configuration((u, v), 'threshold',  valores[i][0] * (4 - weight ) / 3)
                 # Simulation execution
                 model.set_initial_status(config)
                 num_iteracoes =180
@@ -361,38 +297,78 @@ if __name__ == '__main__':
                 infectados = []
                 recuperados = []
                 
-                valores_iter = [0, 5, 10, 15, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 179]
+                # valores_iter = [0, 5, 10, 15, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 179]
                 dados =[]
                     
                 # for a in classes:
                 #     if k in a:
                 #         a.remove(k)
                 
-                # status: 0 - suscetível, 1 - infectado, 2 - Exposto, 3- recuperado
+                # status: 0 - suscetível || 1 - infectado || 2 - Exposto || 3- recuperado
                 for j in iterations:
                     # suscetiveis.append(j['node_count'][0])
                     # infectados.append(j['node_count'][1])
                     # recuperados.append(j['node_count'][2])
                     for x in j['status']:
+                    # if x == 1 and j['status'][x]==1:
+                    #     iteracao_infectado.append(j['iteration'])
                         if j['status'][x]==1:
-                                if x in grafo_aux:
-                                    grafo_aux.remove(x)
-                    
-                    for x in valores_iter:
-                        if j['iteration'] == x:
-                            valor = ((len(grafo)) - len(grafo_aux))*100 / len(grafo)
-                            dados.append(valor)
-                            break
+                                # if x in grafo_aux:
+                                #     grafo_aux.remove(x)
+                                if x in classes[0]:
+                                    classes[0].remove(x)
+                                    if(len(classes[0])==0):
+                                        classes_infectado[0].append(j['iteration'])
+                                
+                                elif x in classes[1]:
+                                    classes[1].remove(x)
+                                    if(len(classes[1])==0):
+                                        classes_infectado[1].append(j['iteration'])
+                                        
+                                elif x in classes[2]:
+                                    classes[2].remove(x)
+                                    if(len(classes[2])==0):
+                                        classes_infectado[2].append(j['iteration'])
 
                             
-                            
+                pos = 0
+                for a in classes:
+                    if(classes_tamanho[pos]!=0):
+                        porcentagem = ((classes_tamanho[pos]- len(a))*100)/classes_tamanho[pos]
+                        porcentagem_infectados[pos].append(porcentagem)
+                    pos+=1       
                     # print(f"quantidade de pessoas no grafo: {len(grafo)}")
                     # print(f"quantidade de pessoas no grafo aux: {len(grafo_aux)}")
                     # print(f"iteracao: {j['iteration']}  e  status: {j['status']}") 
                     # print(f"a porcentagem de infectados na iteracao {k}: {((len(grafo)) - len(grafo_aux))*100 / len(grafo)}\n")
                 
-                row = {str(column[i]): dados[i] for i in range(len(column))}
-                columns.writerow(row)
+
+                # row = {str(column[i]): dados[i] for i in range(len(column))}
+                # columns.writerow(row)
+            
+            porcentagem_forte = sum(porcentagem_infectados[0])/len(porcentagem_infectados[0])
+            # # print(f'porcentagem ponte: {sum(porcentagem_infectados[1])/len(porcentagem_infectados[1])}')
+            porcentagem_ponte = sum(porcentagem_infectados[1])/len(porcentagem_infectados[1])
+            # print(f'porcentagem fraco: {sum(porcentagem_infectados[2])/len(porcentagem_infectados[2])}')
+            porcentagem_fraco = sum(porcentagem_infectados[2])/len(porcentagem_infectados[2])
+            with open('./tabelas_seir/tabela_porcentagem_classes.csv', 'a') as f:
+                f.write(f'{porcentagem_forte} {porcentagem_ponte} {porcentagem_fraco}\n')
                 
+            print(classes_infectado)
+            if(len(classes_infectado[0])==0):
+                classes_infectado[0].append(0)
+                
+            if(len(classes_infectado[1])==0):
+                classes_infectado[1].append(0)
+                
+            if(len(classes_infectado[2])==0):
+                classes_infectado[2].append(0)
+            tempo_forte =  sum(classes_infectado[0])/len(classes_infectado[0])
+            # print(f"media ponte: {sum(classes_infectado[1])/len(classes_infectado[1])}")
+            tempo_ponte =  sum(classes_infectado[1])/len(classes_infectado[1])
+            # print(f"media fraco: {sum(classes_infectado[2])/len(classes_infectado[2])}")
+            tempo_fraco=  sum(classes_infectado[2])/len(classes_infectado[2])
+            with open('./tabelas_seir/tabela_tempo_classes.csv', 'a') as f:
+                f.write(f'{tempo_forte} {tempo_ponte} {tempo_fraco}\n')
     # tabela = pd.read_csv('generico_no_medio.csv.csv')
     # print(tabela)

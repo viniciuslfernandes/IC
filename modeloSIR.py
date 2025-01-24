@@ -276,15 +276,15 @@ if __name__ == '__main__':
             classes_tamanho.append(len(a))
         
         valores_medias = []
-        for k in range(30):
+        for c in range(1):
             iteracao_infectado = []
             classes_infectado = [[], [], []]         
             porcentagem_infectados= [[], [], []]
             
-            # for k in ego:
+            for k in ego:
             # for k in forte:
             # for k in ponte:
-            for k in fraco:
+            # for k in fraco:
             
                 
                 classes = [lista[:] for lista in classes_iniciais]
@@ -331,8 +331,8 @@ if __name__ == '__main__':
                     # recuperados.append(j['node_count'][2])
                     # print(j['status'])
                     for x in j['status']:
-                        if x == 1 and j['status'][x]==1:
-                            iteracao_infectado.append(j['iteration'])
+                       # if x == 1 and j['status'][x]==1:
+                       #     iteracao_infectado.append(j['iteration'])
                         if j['status'][x]==1:
                                 # if x in grafo_aux:
                                 #     grafo_aux.remove(x)
@@ -374,16 +374,24 @@ if __name__ == '__main__':
             # print(f'soma: {sum(iteracao_infectado)} | len: {len(iteracao_infectado)}')
             
             #TEMPO MÉDIO NECESSÁRIO PARA OS NÓS DE UMA CLASSE X INFECTAREM O NÓ EGO
-            media = sum(iteracao_infectado) / len(iteracao_infectado)
-            valores_medias.append(media)
+           # media = sum(iteracao_infectado) / len(iteracao_infectado)
+           # valores_medias.append(media)
             # print(media)
             
             
             # PORCENTAGEM MÉDIA DE INFECÇÕES QUE CADA NO DA CLASSE X, É CAPAZ DE INFECTAR EM CADA CLASSE
             # print(porcentagem_infectados)
+            # if(len(porcentagem_forte[0])==0):
+            #     porcentagem_forte[0].append(0)
+                
+            # if(len(porcentagem_forte[1])==0):
+            #     porcentagem_forte[1].append(0)
+                
+            # if(len(porcentagem_forte[2])==0):
+            #     porcentagem_forte[2].append(0)
             # print(f'porcentagem forte: {sum(porcentagem_infectados[0])/len(porcentagem_infectados[0])}')
             porcentagem_forte = sum(porcentagem_infectados[0])/len(porcentagem_infectados[0])
-            # print(f'porcentagem ponte: {sum(porcentagem_infectados[1])/len(porcentagem_infectados[1])}')
+            # # print(f'porcentagem ponte: {sum(porcentagem_infectados[1])/len(porcentagem_infectados[1])}')
             porcentagem_ponte = sum(porcentagem_infectados[1])/len(porcentagem_infectados[1])
             # print(f'porcentagem fraco: {sum(porcentagem_infectados[2])/len(porcentagem_infectados[2])}')
             porcentagem_fraco = sum(porcentagem_infectados[2])/len(porcentagem_infectados[2])
@@ -393,6 +401,15 @@ if __name__ == '__main__':
             
             # TEMPO MÉDIO NECESSÁRIO PARA QUE CADA NO DA CLASSE X, INFECTEM CADA CLASSE
             # print(f"media forte: {sum(classes_infectado[0])/len(classes_infectado[0])}")
+            print(classes_infectado)
+            if(len(classes_infectado[0])==0):
+                classes_infectado[0].append(0)
+                
+            if(len(classes_infectado[1])==0):
+                classes_infectado[1].append(0)
+                
+            if(len(classes_infectado[2])==0):
+                classes_infectado[2].append(0)
             tempo_forte =  sum(classes_infectado[0])/len(classes_infectado[0])
             # print(f"media ponte: {sum(classes_infectado[1])/len(classes_infectado[1])}")
             tempo_ponte =  sum(classes_infectado[1])/len(classes_infectado[1])
@@ -402,6 +419,6 @@ if __name__ == '__main__':
                 f.write(f'{tempo_forte} {tempo_ponte} {tempo_fraco}\n')
             
         
-        with open('./tabelas_sir/tabela_medias.csv', 'w') as f:
-            for i in valores_medias:
-                f.write(f'{i}\n')
+        # with open('./tabelas_sir/tabela_medias.csv', 'w') as f:
+        #     for i in valores_medias:
+        #         f.write(f'{i}\n')
