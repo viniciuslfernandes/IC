@@ -4,11 +4,13 @@ import networkx as nx
 grafo = nx.Graph()
 range_grafo = range(1, 51147)
 grafo.add_nodes_from(range_grafo)
+
 for i in range_grafo:
-    for j in range(i, len(range_grafo)):
-        if(random.random() >= 0.91): #0,9% da população de 51145 pessoas, = aproximadamente 460 pessoas
-            if i!=j:
-                grafo.add_weighted_edges_from([(i, j, 1)])
+    for x in range(150):
+        j = random.choice(range_grafo)
+        # if(random.random() >= 0.91): #0,9% da população de 51145 pessoas, = aproximadamente 460 pessoas
+        if i!=j:
+            grafo.add_weighted_edges_from([(i, j, 1)])
 
 arestas_append = set()
 
